@@ -1,0 +1,11 @@
+{
+  "job": {
+    "input_data": {
+      "time": "234343",
+      "option": "0"
+    }
+  },
+  "bot": {
+    "settings": [{ "id": "config", "value": {} }]
+  }
+}

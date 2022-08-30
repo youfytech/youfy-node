@@ -1,0 +1,10 @@
+{
+  "job": {
+    "input_data": {
+      "code": "389403"
+    }
+  },
+  "bot": {
+    "settings": [{ "id": "config", "value": { "send_email_to": "alan@youfy.com.br" } }]
+  }
+}
