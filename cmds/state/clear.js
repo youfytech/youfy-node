@@ -1,1 +1,63 @@
-function a22_0x26a3(){const _0x1d5a1d=['1325228BNOazk','42377uTurxe','16taviLx','state:clear','../../sdk/DataState','95NnxjEn','../../sdk/Logger','Removing\x20state\x20directory:','601740SAmUhh','1154263CxnSgE','90rBOxRF','12222lyTnbG','exports','7979238RyIZMn','info','88914QsKkgz','944BcBRhQ','3ElcmCt','Clean\x20all\x20bot\x20states'];a22_0x26a3=function(){return _0x1d5a1d;};return a22_0x26a3();}function a22_0x2816(_0x458798,_0x339096){const _0x26a331=a22_0x26a3();return a22_0x2816=function(_0x2816fe,_0x3174cc){_0x2816fe=_0x2816fe-0x105;let _0x4c6766=_0x26a331[_0x2816fe];return _0x4c6766;},a22_0x2816(_0x458798,_0x339096);}const a22_0x3e3782=a22_0x2816;(function(_0x4875b1,_0x34a855){const _0xa97614=a22_0x2816,_0x412a6b=_0x4875b1();while(!![]){try{const _0x392e5b=-parseInt(_0xa97614(0x111))/0x1*(-parseInt(_0xa97614(0x112))/0x2)+-parseInt(_0xa97614(0x10e))/0x3*(parseInt(_0xa97614(0x110))/0x4)+parseInt(_0xa97614(0x115))/0x5*(parseInt(_0xa97614(0x10c))/0x6)+-parseInt(_0xa97614(0x108))/0x7*(-parseInt(_0xa97614(0x10d))/0x8)+-parseInt(_0xa97614(0x10a))/0x9+parseInt(_0xa97614(0x107))/0xa*(parseInt(_0xa97614(0x106))/0xb)+parseInt(_0xa97614(0x105))/0xc;if(_0x392e5b===_0x34a855)break;else _0x412a6b['push'](_0x412a6b['shift']());}catch(_0x459ff5){_0x412a6b['push'](_0x412a6b['shift']());}}}(a22_0x26a3,0x9347a));const {existsSync,rmSync}=require('fs'),DataState=require(a22_0x3e3782(0x114)),log=require(a22_0x3e3782(0x116)),command=async()=>{const _0x2ca953=a22_0x3e3782,_0x32d7ae=new DataState(),_0x3d54f7=_0x32d7ae['state_dir'];log[_0x2ca953(0x10b)](_0x2ca953(0x117),_0x3d54f7),existsSync(_0x3d54f7)&&rmSync(_0x3d54f7,{'recursive':!![],'force':!![]}),log['success']('State\x20cleared!');};module[a22_0x3e3782(0x109)]=[a22_0x3e3782(0x113),a22_0x3e3782(0x10f),()=>{},command];
+const a22_0x5036af = a22_0x3cbf;
+(function (_0x52fdfd, _0x34af2b) {
+    const _0x4c7fc1 = a22_0x3cbf, _0xf68515 = _0x52fdfd();
+    while (!![]) {
+        try {
+            const _0x59969e = parseInt(_0x4c7fc1(0x1aa)) / 0x1 * (parseInt(_0x4c7fc1(0x1a4)) / 0x2) + -parseInt(_0x4c7fc1(0x1a6)) / 0x3 + parseInt(_0x4c7fc1(0x1ab)) / 0x4 * (parseInt(_0x4c7fc1(0x19d)) / 0x5) + -parseInt(_0x4c7fc1(0x1a8)) / 0x6 * (-parseInt(_0x4c7fc1(0x1a3)) / 0x7) + parseInt(_0x4c7fc1(0x1a0)) / 0x8 + parseInt(_0x4c7fc1(0x1a1)) / 0x9 * (-parseInt(_0x4c7fc1(0x1a9)) / 0xa) + -parseInt(_0x4c7fc1(0x19e)) / 0xb;
+            if (_0x59969e === _0x34af2b)
+                break;
+            else
+                _0xf68515['push'](_0xf68515['shift']());
+        } catch (_0x27fe3d) {
+            _0xf68515['push'](_0xf68515['shift']());
+        }
+    }
+}(a22_0xec16, 0x47d42));
+const {existsSync, rmSync} = require('fs'), DataState = require('../../sdk/DataState'), log = require('../../sdk/Logger'), command = async () => {
+        const _0x3b356d = a22_0x3cbf, _0x1a1f66 = new DataState(), _0x5dec10 = _0x1a1f66[_0x3b356d(0x19f)];
+        log[_0x3b356d(0x19c)](_0x3b356d(0x1a7), _0x5dec10), existsSync(_0x5dec10) && rmSync(_0x5dec10, {
+            'recursive': !![],
+            'force': !![]
+        }), log['success'](_0x3b356d(0x19a));
+    };
+module[a22_0x5036af(0x19b)] = [
+    a22_0x5036af(0x1a5),
+    a22_0x5036af(0x1a2),
+    () => {
+    },
+    command
+];
+function a22_0x3cbf(_0x3048a7, _0x207d7d) {
+    const _0xec169c = a22_0xec16();
+    return a22_0x3cbf = function (_0x3cbfd1, _0x3c81dc) {
+        _0x3cbfd1 = _0x3cbfd1 - 0x19a;
+        let _0x267d55 = _0xec169c[_0x3cbfd1];
+        return _0x267d55;
+    }, a22_0x3cbf(_0x3048a7, _0x207d7d);
+}
+function a22_0xec16() {
+    const _0xc77284 = [
+        'info',
+        '75eZpWrj',
+        '14047737mcztLy',
+        'state_dir',
+        '3993720AVbsth',
+        '18LvRrZB',
+        'Clean\x20all\x20bot\x20states',
+        '12061pDnwjB',
+        '14088cYZgfe',
+        'state:clear',
+        '520941mxPIMv',
+        'Removing\x20state\x20directory:',
+        '2028mgQLqb',
+        '430130yHmchY',
+        '39cSOIrc',
+        '126572BqsVDd',
+        'State\x20cleared!',
+        'exports'
+    ];
+    a22_0xec16 = function () {
+        return _0xc77284;
+    };
+    return a22_0xec16();
+}

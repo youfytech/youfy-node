@@ -1,1 +1,91 @@
-function a31_0x6a78(_0x4eaaa3,_0x1f6464){const _0x2cc1ed=a31_0x2cc1();return a31_0x6a78=function(_0x6a7852,_0x2ca49a){_0x6a7852=_0x6a7852-0x10e;let _0x381b35=_0x2cc1ed[_0x6a7852];return _0x381b35;},a31_0x6a78(_0x4eaaa3,_0x1f6464);}const a31_0x2ad746=a31_0x6a78;function a31_0x2cc1(){const _0x14011a=['bot_id','getId','has','BOT\x20ID\x20is\x20required.','./runJob','bot_config','job:pending','1629690grMGam','92670jSEqlg','1616230oHzbbD','../helpers/Socket','1661956VgZXdH','126UbtIIX','10kTFHMu','4JPvPSp','exit','../helpers/Lockfile','remove','error','create','bind','9536996flHCzS','382232eXMBJw','job_id','215581aSfBfa'];a31_0x2cc1=function(){return _0x14011a;};return a31_0x2cc1();}(function(_0x2cd78a,_0x41a396){const _0x29e05b=a31_0x6a78,_0x263c12=_0x2cd78a();while(!![]){try{const _0x357af3=-parseInt(_0x29e05b(0x117))/0x1*(parseInt(_0x29e05b(0x126))/0x2)+parseInt(_0x29e05b(0x120))/0x3+-parseInt(_0x29e05b(0x123))/0x4*(parseInt(_0x29e05b(0x125))/0x5)+-parseInt(_0x29e05b(0x11f))/0x6+parseInt(_0x29e05b(0x114))/0x7+-parseInt(_0x29e05b(0x115))/0x8*(-parseInt(_0x29e05b(0x124))/0x9)+parseInt(_0x29e05b(0x121))/0xa;if(_0x357af3===_0x41a396)break;else _0x263c12['push'](_0x263c12['shift']());}catch(_0x4f34fc){_0x263c12['push'](_0x263c12['shift']());}}}(a31_0x2cc1,0xa87ac));const Device=require('../helpers/Device'),device_id=Device[a31_0x2ad746(0x119)](),setup=async({id:_0xdee778,version:_0x3b926b,packageable:packageable=!![]},_0x5c2576)=>{const _0x1ef941=a31_0x2ad746;!_0xdee778&&(console[_0x1ef941(0x111)](_0x1ef941(0x11b)),process[_0x1ef941(0x10e)]());globalThis['id']=_0xdee778;const _0x5b62ab=require(_0x1ef941(0x11c)),_0x2bcbd0=require(_0x1ef941(0x10f)),_0x4bb108=new _0x2bcbd0(_0xdee778);_0x4bb108[_0x1ef941(0x110)]();const _0x45fba6=require(_0x1ef941(0x122))(_0xdee778,_0x3b926b,packageable);_0x45fba6['on']('BOT:STOP',async _0x555e22=>{const _0x29034c=_0x1ef941;_0x555e22[_0x29034c(0x118)]===_0xdee778&&process[_0x29034c(0x10e)](0x0);}),_0x45fba6['on'](_0x1ef941(0x11e),async _0x3cbc2c=>{const _0x1bd99b=_0x1ef941,_0x5287c9=packageable?_0x3cbc2c['device_id']===device_id:!![];if(_0x3cbc2c[_0x1bd99b(0x118)]!==_0xdee778||!_0x5287c9||_0x4bb108[_0x1bd99b(0x11a)]())return;_0x45fba6['on']('JOB:STOP',async _0x2de71b=>{const _0x3827d4=_0x1bd99b;_0x2de71b[_0x3827d4(0x116)]===_0x3cbc2c['id']&&process[_0x3827d4(0x10e)](0x0);}),_0x4bb108[_0x1bd99b(0x112)]();try{await _0x5b62ab({'job_id':_0x3cbc2c['id'],'bot_id':_0xdee778,'botFn':_0x5c2576});}finally{_0x4bb108[_0x1bd99b(0x110)]();}});};module['exports']=_0x36c9d2=>{const _0x14a3d5=a31_0x2ad746;return global[_0x14a3d5(0x11d)]=_0x36c9d2,setup[_0x14a3d5(0x113)](this,_0x36c9d2);};
+function a31_0x401b(_0x2a86d4, _0x2a3c59) {
+    const _0xf9d28a = a31_0xf9d2();
+    return a31_0x401b = function (_0x401b63, _0x3cb3af) {
+        _0x401b63 = _0x401b63 - 0x68;
+        let _0xf6e60f = _0xf9d28a[_0x401b63];
+        return _0xf6e60f;
+    }, a31_0x401b(_0x2a86d4, _0x2a3c59);
+}
+const a31_0x5f3476 = a31_0x401b;
+function a31_0xf9d2() {
+    const _0x44b379 = [
+        'JOB:STOP',
+        '875565vdLqJN',
+        'BOT:STOP',
+        '32572zQjcKI',
+        'job_id',
+        'has',
+        'BOT\x20ID\x20is\x20required.',
+        'job:pending',
+        'bot_id',
+        '279875NYOXqT',
+        '200893khOWCW',
+        '9HUkxjb',
+        'device_id',
+        '2131340branEn',
+        'remove',
+        'getId',
+        'bind',
+        'create',
+        '192166vaOMJk',
+        '443048hvqxXC',
+        '105sBsEQL',
+        '42NdCVBI',
+        'exit'
+    ];
+    a31_0xf9d2 = function () {
+        return _0x44b379;
+    };
+    return a31_0xf9d2();
+}
+(function (_0x4fe30f, _0x136aaa) {
+    const _0x4cd17c = a31_0x401b, _0xb45e87 = _0x4fe30f();
+    while (!![]) {
+        try {
+            const _0x39365d = parseInt(_0x4cd17c(0x6b)) / 0x1 + parseInt(_0x4cd17c(0x74)) / 0x2 * (-parseInt(_0x4cd17c(0x6d)) / 0x3) + -parseInt(_0x4cd17c(0x7c)) / 0x4 * (parseInt(_0x4cd17c(0x76)) / 0x5) + parseInt(_0x4cd17c(0x77)) / 0x6 * (parseInt(_0x4cd17c(0x6c)) / 0x7) + parseInt(_0x4cd17c(0x75)) / 0x8 + -parseInt(_0x4cd17c(0x7a)) / 0x9 + parseInt(_0x4cd17c(0x6f)) / 0xa;
+            if (_0x39365d === _0x136aaa)
+                break;
+            else
+                _0xb45e87['push'](_0xb45e87['shift']());
+        } catch (_0x2f6af9) {
+            _0xb45e87['push'](_0xb45e87['shift']());
+        }
+    }
+}(a31_0xf9d2, 0x2f0ea));
+const Device = require('../helpers/Device'), device_id = Device[a31_0x5f3476(0x71)](), setup = async ({
+        id: _0x2b027e,
+        version: _0x3c30a4,
+        packageable: packageable = !![]
+    }, _0x226851) => {
+        const _0x793a6 = a31_0x5f3476;
+        !_0x2b027e && (console['error'](_0x793a6(0x68)), process[_0x793a6(0x78)]());
+        globalThis['id'] = _0x2b027e;
+        const _0x137a21 = require('./runJob'), _0x543f67 = require('../helpers/Lockfile'), _0x9a79ba = new _0x543f67(_0x2b027e);
+        _0x9a79ba['remove']();
+        const _0x14d5ea = require('../helpers/Socket')(_0x2b027e, _0x3c30a4, packageable);
+        _0x14d5ea['on'](_0x793a6(0x7b), async _0x20af61 => {
+            const _0x4387f4 = _0x793a6;
+            _0x20af61[_0x4387f4(0x6a)] === _0x2b027e && process[_0x4387f4(0x78)](0x0);
+        }), _0x14d5ea['on'](_0x793a6(0x69), async _0x2dfb96 => {
+            const _0x406912 = _0x793a6, _0x1499c1 = packageable ? _0x2dfb96[_0x406912(0x6e)] === device_id : !![];
+            if (_0x2dfb96[_0x406912(0x6a)] !== _0x2b027e || !_0x1499c1 || _0x9a79ba[_0x406912(0x7e)]())
+                return;
+            _0x14d5ea['on'](_0x406912(0x79), async _0x25dfff => {
+                const _0x59cd6a = _0x406912;
+                _0x25dfff[_0x59cd6a(0x7d)] === _0x2dfb96['id'] && process[_0x59cd6a(0x78)](0x0);
+            }), _0x9a79ba[_0x406912(0x73)]();
+            try {
+                await _0x137a21({
+                    'job_id': _0x2dfb96['id'],
+                    'bot_id': _0x2b027e,
+                    'botFn': _0x226851
+                });
+            } finally {
+                _0x9a79ba[_0x406912(0x70)]();
+            }
+        });
+    };
+module['exports'] = _0x2625e3 => {
+    const _0xea9d7 = a31_0x5f3476;
+    return global['bot_config'] = _0x2625e3, setup[_0xea9d7(0x72)](this, _0x2625e3);
+};

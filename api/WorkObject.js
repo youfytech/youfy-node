@@ -1,1 +1,181 @@
-const a9_0x1edc7e=a9_0x8e79;(function(_0x1b1f7c,_0x247033){const _0x41b401=a9_0x8e79,_0x8b9890=_0x1b1f7c();while(!![]){try{const _0x3f3e0c=parseInt(_0x41b401(0x129))/0x1+-parseInt(_0x41b401(0x12f))/0x2*(parseInt(_0x41b401(0x11a))/0x3)+-parseInt(_0x41b401(0x138))/0x4+-parseInt(_0x41b401(0x12b))/0x5+-parseInt(_0x41b401(0x12a))/0x6*(parseInt(_0x41b401(0x126))/0x7)+parseInt(_0x41b401(0x139))/0x8+parseInt(_0x41b401(0x11e))/0x9;if(_0x3f3e0c===_0x247033)break;else _0x8b9890['push'](_0x8b9890['shift']());}catch(_0x395609){_0x8b9890['push'](_0x8b9890['shift']());}}}(a9_0x2eb0,0x48d43));function a9_0x8e79(_0x401186,_0x3490da){const _0x2eb00d=a9_0x2eb0();return a9_0x8e79=function(_0x8e79d8,_0x59412f){_0x8e79d8=_0x8e79d8-0x111;let _0x16e8b5=_0x2eb00d[_0x8e79d8];return _0x16e8b5;},a9_0x8e79(_0x401186,_0x3490da);}const api=require(a9_0x1edc7e(0x122)),{APIError}=require(a9_0x1edc7e(0x11c)),Utils=require(a9_0x1edc7e(0x121)),WorkObjectMock=require(a9_0x1edc7e(0x135));class WorkObject{static async[a9_0x1edc7e(0x12d)](_0x3f053c,_0x463000={}){const _0x5035c0=a9_0x1edc7e;try{const _0x26c871=await api['get'](_0x5035c0(0x134),{'params':{'bot_id':_0x3f053c,..._0x463000}});return _0x26c871[_0x5035c0(0x128)]||{};}catch(_0x4ec257){throw new APIError(_0x5035c0(0x114),_0x4ec257);}}static async[a9_0x1edc7e(0x112)](_0x19f993,_0x21e417){const _0x311dce=a9_0x1edc7e;try{const _0x436803=await api[_0x311dce(0x119)]('work-objects/'+_0x19f993,_0x21e417);return _0x436803[_0x311dce(0x128)]||{};}catch(_0x48b73d){throw new APIError(_0x311dce(0x11f),_0x48b73d);}}static async['create'](_0x33ae0b){const _0x5d2f42=a9_0x1edc7e;try{const _0xdf8b04=await api[_0x5d2f42(0x119)](_0x5d2f42(0x134),_0x33ae0b);return _0xdf8b04[_0x5d2f42(0x128)]||{};}catch(_0x3244db){throw new APIError(_0x5d2f42(0x130),_0x3244db);}}static async[a9_0x1edc7e(0x113)](_0x34cfbe){const _0x1a87fc=a9_0x1edc7e;try{const _0x4476e8=Array['isArray'](_0x34cfbe)?_0x34cfbe:[_0x34cfbe],_0x488601=await api[_0x1a87fc(0x119)]('work-objects',_0x4476e8);return _0x488601['data']||[];}catch(_0x151448){throw new APIError(_0x1a87fc(0x11b),_0x151448);}}static async[a9_0x1edc7e(0x111)](_0x1dc7fa){const _0x1fed4c=a9_0x1edc7e;try{const _0x49b8e3=await api[_0x1fed4c(0x119)](_0x1fed4c(0x137)+_0x1dc7fa+_0x1fed4c(0x115));return _0x49b8e3[_0x1fed4c(0x128)]||{};}catch(_0x5acb46){throw new APIError('[Fail\x20to\x20request\x20init\x20work\x20object]:\x20',_0x5acb46);}}static async['done'](_0x4ca2d9,_0x413bc1){const _0x4305ca=a9_0x1edc7e;try{const _0x47c50f=await api[_0x4305ca(0x119)](_0x4305ca(0x137)+_0x4ca2d9+_0x4305ca(0x116),_0x413bc1);return _0x47c50f[_0x4305ca(0x128)]||{};}catch(_0x83b98b){throw new APIError(_0x4305ca(0x118),_0x83b98b);}}static async[a9_0x1edc7e(0x120)](_0x48e08a,_0xd59151){const _0x1633d8=a9_0x1edc7e;try{const _0x2edf02=await api['post'](_0x1633d8(0x137)+_0x48e08a+_0x1633d8(0x127),_0xd59151);return _0x2edf02[_0x1633d8(0x128)]||{};}catch(_0x3c10df){throw new APIError(_0x1633d8(0x11d),_0x3c10df);}}static async[a9_0x1edc7e(0x125)](_0xb5f642,_0x30d90a){const _0x154722=a9_0x1edc7e;try{const _0x1d22a8=await api[_0x154722(0x119)](_0x154722(0x137)+_0xb5f642+_0x154722(0x12c),_0x30d90a);return _0x1d22a8['data']||{};}catch(_0x2babef){throw new APIError(_0x154722(0x123),_0x2babef);}}static async[a9_0x1edc7e(0x124)](_0x4d1791,_0x3b546d){const _0x2cadb2=a9_0x1edc7e;try{const _0x4768a0=await api['put'](_0x2cadb2(0x137)+_0x4d1791,_0x3b546d);return _0x4768a0['data']||{};}catch(_0x3e52e4){throw new APIError('[Fail\x20to\x20request\x20update\x20work\x20object]:\x20',_0x3e52e4);}}static async[a9_0x1edc7e(0x136)](_0x591b05){const _0x321fa1=a9_0x1edc7e;try{const _0x3c93e7=await api[_0x321fa1(0x136)](_0x321fa1(0x137)+_0x591b05);return _0x3c93e7['data']||{};}catch(_0x23a9ca){throw new APIError(_0x321fa1(0x133),_0x23a9ca);}}static async[a9_0x1edc7e(0x12e)](_0x116e4f,_0x18e39f){const _0x2f545b=a9_0x1edc7e;try{const _0x3e6265=await api[_0x2f545b(0x131)](_0x2f545b(0x137)+_0x116e4f+'/'+_0x18e39f);return _0x3e6265[_0x2f545b(0x128)]||{};}catch(_0x3bc32c){throw new APIError('[Fail\x20to\x20request\x20'+_0x18e39f+_0x2f545b(0x132),_0x3bc32c);}}}function a9_0x2eb0(){const _0x3d79eb=['[Fail\x20to\x20request\x20not\x20done\x20work\x20object]:\x20','2106855tFAQrl','[Fail\x20to\x20request\x20find/create\x20work\x20object]:\x20','notDone','../sdk/Utils','./instance','[Fail\x20to\x20request\x20failed\x20work\x20object]:\x20','update','failed','147PoPTTz','/not_done','data','504077nlnAlJ','54636JqDdMH','2584920ABAUmO','/failed','fetchAll','findByStatus','12900PmLonc','[Fail\x20to\x20request\x20create\x20work\x20object]:\x20','get','\x20work\x20objects]:\x20','[Fail\x20to\x20request\x20delete\x20work\x20object]:\x20','work-objects','./mocks/WorkObjectMock','delete','work-objects/','99128TrHXpq','4305816xRVOVk','init','findOrCreate','bulkCreate','[Fail\x20to\x20request\x20fetch\x20all\x20work\x20objects]:\x20','/init','/done','isProduction','[Fail\x20to\x20request\x20done\x20work\x20object]:\x20','post','114JXIDEr','[Fail\x20to\x20request\x20bulk\x20create\x20objects]:\x20','../exceptions'];a9_0x2eb0=function(){return _0x3d79eb;};return a9_0x2eb0();}module['exports']=Utils[a9_0x1edc7e(0x117)]()?WorkObject:WorkObjectMock;
+function a9_0x3a40(_0x54cc14, _0x244445) {
+    const _0x459a09 = a9_0x459a();
+    return a9_0x3a40 = function (_0x3a4088, _0x12962c) {
+        _0x3a4088 = _0x3a4088 - 0x8c;
+        let _0x564d41 = _0x459a09[_0x3a4088];
+        return _0x564d41;
+    }, a9_0x3a40(_0x54cc14, _0x244445);
+}
+const a9_0x2deb82 = a9_0x3a40;
+(function (_0x51b3b9, _0x1ca489) {
+    const _0x41355c = a9_0x3a40, _0x367fa4 = _0x51b3b9();
+    while (!![]) {
+        try {
+            const _0x6cce4d = -parseInt(_0x41355c(0xa8)) / 0x1 + parseInt(_0x41355c(0xa9)) / 0x2 * (parseInt(_0x41355c(0x8e)) / 0x3) + parseInt(_0x41355c(0xaa)) / 0x4 + parseInt(_0x41355c(0x95)) / 0x5 * (parseInt(_0x41355c(0x9d)) / 0x6) + parseInt(_0x41355c(0x93)) / 0x7 * (parseInt(_0x41355c(0x99)) / 0x8) + -parseInt(_0x41355c(0x90)) / 0x9 + parseInt(_0x41355c(0x97)) / 0xa * (parseInt(_0x41355c(0xb0)) / 0xb);
+            if (_0x6cce4d === _0x1ca489)
+                break;
+            else
+                _0x367fa4['push'](_0x367fa4['shift']());
+        } catch (_0x5bbaeb) {
+            _0x367fa4['push'](_0x367fa4['shift']());
+        }
+    }
+}(a9_0x459a, 0x5afc3));
+const api = require('./instance'), {APIError} = require('../exceptions'), Utils = require('../sdk/Utils'), WorkObjectMock = require('./mocks/WorkObjectMock');
+function a9_0x459a() {
+    const _0x1785e9 = [
+        'update',
+        'delete',
+        'get',
+        '24ukzplN',
+        'work-objects',
+        'create',
+        'failed',
+        'notDone',
+        '[Fail\x20to\x20request\x20',
+        'isArray',
+        '\x20work\x20objects]:\x20',
+        'init',
+        'data',
+        'isProduction',
+        '727009DTsNcT',
+        '4EeYJCm',
+        '1232548hMQiLp',
+        'work-objects/',
+        '/failed',
+        'findOrCreate',
+        '[Fail\x20to\x20request\x20init\x20work\x20object]:\x20',
+        '/not_done',
+        '154aTyynq',
+        'put',
+        '[Fail\x20to\x20request\x20done\x20work\x20object]:\x20',
+        '/done',
+        'done',
+        '[Fail\x20to\x20request\x20bulk\x20create\x20objects]:\x20',
+        'findByStatus',
+        'bulkCreate',
+        '435273MsiXLZ',
+        '[Fail\x20to\x20request\x20failed\x20work\x20object]:\x20',
+        '5990382WELmMw',
+        '[Fail\x20to\x20request\x20not\x20done\x20work\x20object]:\x20',
+        '/init',
+        '251055vFYWPm',
+        '[Fail\x20to\x20request\x20delete\x20work\x20object]:\x20',
+        '260120nkSfYo',
+        '[Fail\x20to\x20request\x20create\x20work\x20object]:\x20',
+        '505580UcZHyj',
+        'post',
+        '56RRogoC'
+    ];
+    a9_0x459a = function () {
+        return _0x1785e9;
+    };
+    return a9_0x459a();
+}
+class WorkObject {
+    static async ['fetchAll'](_0x26a94f, _0x3f81cc = {}) {
+        const _0x399688 = a9_0x3a40;
+        try {
+            const _0x36faf0 = await api[_0x399688(0x9c)]('work-objects', {
+                'params': {
+                    'bot_id': _0x26a94f,
+                    ..._0x3f81cc
+                }
+            });
+            return _0x36faf0[_0x399688(0xa6)] || {};
+        } catch (_0x39e6d5) {
+            throw new APIError('[Fail\x20to\x20request\x20fetch\x20all\x20work\x20objects]:\x20', _0x39e6d5);
+        }
+    }
+    static async [a9_0x2deb82(0xad)](_0xac31f1, _0x5cfdbd) {
+        const _0x5c165b = a9_0x2deb82;
+        try {
+            const _0x7f3fe7 = await api['post']('work-objects/' + _0xac31f1, _0x5cfdbd);
+            return _0x7f3fe7[_0x5c165b(0xa6)] || {};
+        } catch (_0x5512af) {
+            throw new APIError('[Fail\x20to\x20request\x20find/create\x20work\x20object]:\x20', _0x5512af);
+        }
+    }
+    static async [a9_0x2deb82(0x9f)](_0x174470) {
+        const _0x260407 = a9_0x2deb82;
+        try {
+            const _0x258e34 = await api['post']('work-objects', _0x174470);
+            return _0x258e34[_0x260407(0xa6)] || {};
+        } catch (_0x4a7086) {
+            throw new APIError(_0x260407(0x96), _0x4a7086);
+        }
+    }
+    static async [a9_0x2deb82(0x8d)](_0x52a62c) {
+        const _0x48f17e = a9_0x2deb82;
+        try {
+            const _0x441520 = Array[_0x48f17e(0xa3)](_0x52a62c) ? _0x52a62c : [_0x52a62c], _0x20c9cc = await api[_0x48f17e(0x98)](_0x48f17e(0x9e), _0x441520);
+            return _0x20c9cc[_0x48f17e(0xa6)] || [];
+        } catch (_0x4f5f27) {
+            throw new APIError(_0x48f17e(0xb5), _0x4f5f27);
+        }
+    }
+    static async [a9_0x2deb82(0xa5)](_0x762f13) {
+        const _0x8cd25 = a9_0x2deb82;
+        try {
+            const _0x5128b7 = await api[_0x8cd25(0x98)](_0x8cd25(0xab) + _0x762f13 + _0x8cd25(0x92));
+            return _0x5128b7[_0x8cd25(0xa6)] || {};
+        } catch (_0x299f38) {
+            throw new APIError(_0x8cd25(0xae), _0x299f38);
+        }
+    }
+    static async [a9_0x2deb82(0xb4)](_0x408e98, _0x27b74f) {
+        const _0x4f4b92 = a9_0x2deb82;
+        try {
+            const _0x5a7311 = await api[_0x4f4b92(0x98)](_0x4f4b92(0xab) + _0x408e98 + _0x4f4b92(0xb3), _0x27b74f);
+            return _0x5a7311[_0x4f4b92(0xa6)] || {};
+        } catch (_0x3d268e) {
+            throw new APIError(_0x4f4b92(0xb2), _0x3d268e);
+        }
+    }
+    static async [a9_0x2deb82(0xa1)](_0x39af47, _0x1d9287) {
+        const _0xd227bd = a9_0x2deb82;
+        try {
+            const _0x2475be = await api['post'](_0xd227bd(0xab) + _0x39af47 + _0xd227bd(0xaf), _0x1d9287);
+            return _0x2475be[_0xd227bd(0xa6)] || {};
+        } catch (_0x3e0d62) {
+            throw new APIError(_0xd227bd(0x91), _0x3e0d62);
+        }
+    }
+    static async [a9_0x2deb82(0xa0)](_0x47371a, _0x254634) {
+        const _0x1c51f9 = a9_0x2deb82;
+        try {
+            const _0x11fa4e = await api[_0x1c51f9(0x98)](_0x1c51f9(0xab) + _0x47371a + _0x1c51f9(0xac), _0x254634);
+            return _0x11fa4e[_0x1c51f9(0xa6)] || {};
+        } catch (_0x43531b) {
+            throw new APIError(_0x1c51f9(0x8f), _0x43531b);
+        }
+    }
+    static async [a9_0x2deb82(0x9a)](_0x5cd657, _0x8f7b96) {
+        const _0x4f85af = a9_0x2deb82;
+        try {
+            const _0x3bc1ae = await api[_0x4f85af(0xb1)](_0x4f85af(0xab) + _0x5cd657, _0x8f7b96);
+            return _0x3bc1ae['data'] || {};
+        } catch (_0x53ed33) {
+            throw new APIError('[Fail\x20to\x20request\x20update\x20work\x20object]:\x20', _0x53ed33);
+        }
+    }
+    static async [a9_0x2deb82(0x9b)](_0x46e960) {
+        const _0x494299 = a9_0x2deb82;
+        try {
+            const _0x3c98a1 = await api[_0x494299(0x9b)](_0x494299(0xab) + _0x46e960);
+            return _0x3c98a1[_0x494299(0xa6)] || {};
+        } catch (_0x35f860) {
+            throw new APIError(_0x494299(0x94), _0x35f860);
+        }
+    }
+    static async [a9_0x2deb82(0x8c)](_0x5670ef, _0x46a87c) {
+        const _0x1c815e = a9_0x2deb82;
+        try {
+            const _0x26549d = await api['get']('work-objects/' + _0x5670ef + '/' + _0x46a87c);
+            return _0x26549d[_0x1c815e(0xa6)] || {};
+        } catch (_0x778b0e) {
+            throw new APIError(_0x1c815e(0xa2) + _0x46a87c + _0x1c815e(0xa4), _0x778b0e);
+        }
+    }
+}
+module['exports'] = Utils[a9_0x2deb82(0xa7)]() ? WorkObject : WorkObjectMock;

@@ -1,1 +1,70 @@
-const a18_0x13d8f5=a18_0x435f;(function(_0x1cd9dc,_0x25877f){const _0x387a2a=a18_0x435f,_0x330fbe=_0x1cd9dc();while(!![]){try{const _0x4eaccd=-parseInt(_0x387a2a(0x194))/0x1*(-parseInt(_0x387a2a(0x19c))/0x2)+parseInt(_0x387a2a(0x199))/0x3*(-parseInt(_0x387a2a(0x195))/0x4)+-parseInt(_0x387a2a(0x19e))/0x5*(parseInt(_0x387a2a(0x198))/0x6)+-parseInt(_0x387a2a(0x18a))/0x7+parseInt(_0x387a2a(0x18c))/0x8*(parseInt(_0x387a2a(0x188))/0x9)+-parseInt(_0x387a2a(0x18d))/0xa+parseInt(_0x387a2a(0x191))/0xb*(parseInt(_0x387a2a(0x190))/0xc);if(_0x4eaccd===_0x25877f)break;else _0x330fbe['push'](_0x330fbe['shift']());}catch(_0x48a8b7){_0x330fbe['push'](_0x330fbe['shift']());}}}(a18_0x28d3,0xb232c));function a18_0x435f(_0x27a411,_0x57eb74){const _0x28d36a=a18_0x28d3();return a18_0x435f=function(_0x435f2d,_0x5e3334){_0x435f2d=_0x435f2d-0x186;let _0x35dab2=_0x28d36a[_0x435f2d];return _0x35dab2;},a18_0x435f(_0x27a411,_0x57eb74);}function a18_0x28d3(){const _0xdcd1bf=['state_dir','2396100DCOhMI','isHeadless','622344QyoWSj','6038940ejoGNs','info','table','72nDrJvN','6532207DxrNgo','get','cwd','12CbjDtB','60ovtTfq','main','Show\x20bot\x20information','270GLuiZJ','290154VrWzrQ','../../sdk/Utils','../../helpers/Device','20968TNihXL','../../sdk/DataState','131590KCwUyP','isProduction','../../sdk/Package','packageable','72kZzBGb'];a18_0x28d3=function(){return _0xdcd1bf;};return a18_0x28d3();}const os=require('os'),Package=require(a18_0x13d8f5(0x186)),DataState=require(a18_0x13d8f5(0x19d)),Utils=require(a18_0x13d8f5(0x19a)),{resolve}=require('path'),Device=require(a18_0x13d8f5(0x19b)),command=async()=>{const _0x599e6b=a18_0x13d8f5,_0x2826f6=new DataState(),_0xb4bb1a=_0x2826f6[_0x599e6b(0x189)],_0x5ec90d={'ID':Package['get']('id'),'Name':Package[_0x599e6b(0x192)]('name'),'Packageable':Package[_0x599e6b(0x192)](_0x599e6b(0x187),![]),'Production':Utils[_0x599e6b(0x19f)](),'Headless':Utils[_0x599e6b(0x18b)](),'Entry\x20point':resolve(process[_0x599e6b(0x193)](),Package[_0x599e6b(0x192)](_0x599e6b(0x196))),'Temp\x20Directory':os['tmpdir'](),'State\x20Directory':_0xb4bb1a,'Device\x20ID':Device['getId']()};console[_0x599e6b(0x18f)](_0x5ec90d);};module['exports']=[a18_0x13d8f5(0x18e),a18_0x13d8f5(0x197),()=>{},command];
+const a18_0x2e3ad0 = a18_0x2efe;
+(function (_0x5d4120, _0x534992) {
+    const _0x2ab900 = a18_0x2efe, _0x1a2cd7 = _0x5d4120();
+    while (!![]) {
+        try {
+            const _0x46e58e = -parseInt(_0x2ab900(0x1f5)) / 0x1 + parseInt(_0x2ab900(0x1ea)) / 0x2 + -parseInt(_0x2ab900(0x1ed)) / 0x3 * (-parseInt(_0x2ab900(0x1ef)) / 0x4) + -parseInt(_0x2ab900(0x1e9)) / 0x5 + -parseInt(_0x2ab900(0x1f2)) / 0x6 + parseInt(_0x2ab900(0x1e8)) / 0x7 + -parseInt(_0x2ab900(0x1e7)) / 0x8;
+            if (_0x46e58e === _0x534992)
+                break;
+            else
+                _0x1a2cd7['push'](_0x1a2cd7['shift']());
+        } catch (_0x10498a) {
+            _0x1a2cd7['push'](_0x1a2cd7['shift']());
+        }
+    }
+}(a18_0x5322, 0x1fa15));
+function a18_0x5322() {
+    const _0x3a12aa = [
+        '1808359DkpYYD',
+        '1152850QIgcNf',
+        '354330QlTGhd',
+        'packageable',
+        'state_dir',
+        '616359ENFGSK',
+        'exports',
+        '4LFKUtz',
+        'get',
+        'Show\x20bot\x20information',
+        '259872tGWgut',
+        'isProduction',
+        'isHeadless',
+        '82943ieYCge',
+        'getId',
+        'cwd',
+        'name',
+        '1236584HGwvNj'
+    ];
+    a18_0x5322 = function () {
+        return _0x3a12aa;
+    };
+    return a18_0x5322();
+}
+function a18_0x2efe(_0x2e0340, _0x1dacd2) {
+    const _0x5322c8 = a18_0x5322();
+    return a18_0x2efe = function (_0x2efed9, _0x58fb31) {
+        _0x2efed9 = _0x2efed9 - 0x1e4;
+        let _0x5a9d2c = _0x5322c8[_0x2efed9];
+        return _0x5a9d2c;
+    }, a18_0x2efe(_0x2e0340, _0x1dacd2);
+}
+const os = require('os'), Package = require('../../sdk/Package'), DataState = require('../../sdk/DataState'), Utils = require('../../sdk/Utils'), {resolve} = require('path'), Device = require('../../helpers/Device'), command = async () => {
+        const _0x5be47e = a18_0x2efe, _0x1a6440 = new DataState(), _0x4cfeb0 = _0x1a6440[_0x5be47e(0x1ec)], _0x121504 = {
+                'ID': Package[_0x5be47e(0x1f0)]('id'),
+                'Name': Package[_0x5be47e(0x1f0)](_0x5be47e(0x1e6)),
+                'Packageable': Package[_0x5be47e(0x1f0)](_0x5be47e(0x1eb), ![]),
+                'Production': Utils[_0x5be47e(0x1f3)](),
+                'Headless': Utils[_0x5be47e(0x1f4)](),
+                'Entry\x20point': resolve(process[_0x5be47e(0x1e5)](), Package['get']('main')),
+                'Temp\x20Directory': os['tmpdir'](),
+                'State\x20Directory': _0x4cfeb0,
+                'Device\x20ID': Device[_0x5be47e(0x1e4)]()
+            };
+        console['table'](_0x121504);
+    };
+module[a18_0x2e3ad0(0x1ee)] = [
+    'info',
+    a18_0x2e3ad0(0x1f1),
+    () => {
+    },
+    command
+];

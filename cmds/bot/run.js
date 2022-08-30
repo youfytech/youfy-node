@@ -1,1 +1,71 @@
-function a19_0x2e1f(_0x58db45,_0x11a229){const _0x235e1c=a19_0x235e();return a19_0x2e1f=function(_0x2e1fd4,_0x907d20){_0x2e1fd4=_0x2e1fd4-0xd5;let _0x5e4fe9=_0x235e1c[_0x2e1fd4];return _0x5e4fe9;},a19_0x2e1f(_0x58db45,_0x11a229);}const a19_0x4a3376=a19_0x2e1f;(function(_0x4614d4,_0x174292){const _0x2cde5b=a19_0x2e1f,_0x1504b7=_0x4614d4();while(!![]){try{const _0x5c3146=-parseInt(_0x2cde5b(0xd6))/0x1+-parseInt(_0x2cde5b(0xe9))/0x2+-parseInt(_0x2cde5b(0xe1))/0x3*(parseInt(_0x2cde5b(0xea))/0x4)+parseInt(_0x2cde5b(0xd7))/0x5*(-parseInt(_0x2cde5b(0xd5))/0x6)+-parseInt(_0x2cde5b(0xde))/0x7*(-parseInt(_0x2cde5b(0xe7))/0x8)+-parseInt(_0x2cde5b(0xe3))/0x9+-parseInt(_0x2cde5b(0xe5))/0xa*(-parseInt(_0x2cde5b(0xe0))/0xb);if(_0x5c3146===_0x174292)break;else _0x1504b7['push'](_0x1504b7['shift']());}catch(_0x5b9a3a){_0x1504b7['push'](_0x1504b7['shift']());}}}(a19_0x235e,0x9e9b2));function a19_0x235e(){const _0x2cea6b=['6mHYbpM','now','3872097CdapUc','main','8090050KKMxoO','Prorperly\x20main\x20not\x20set\x20in\x20package.json.\x20Please\x20set\x20it\x20to\x20the\x20path\x20of\x20the\x20bot\x20file.','104YiioPB','path','1019430ptoiFw','1971532QyBVHn','5148354bGAxct','960639YINkCU','5vKiCvJ','00000000-0000-0000-0000-000000000000','run\x20[path]','../../engine/runJob','positional','../../sdk/Config','jobId','187943tbjldI','../../sdk/Package','55JimFbY'];a19_0x235e=function(){return _0x2cea6b;};return a19_0x235e();}const {resolve}=require(a19_0x4a3376(0xe8)),runJob=require(a19_0x4a3376(0xda)),Config=require(a19_0x4a3376(0xdc)),Package=require(a19_0x4a3376(0xdf)),command=async _0x26e679=>{const _0x181504=a19_0x4a3376;await runJob({'job_id':Config['get'](_0x181504(0xdd),Date[_0x181504(0xe2)]()),'bot_id':Config['get']('id',Package['get']('id',_0x181504(0xd8))),'botFn':require(resolve(_0x26e679['path']))});},cmdArgs=_0x224b7b=>{const _0x3b2fbc=a19_0x4a3376,_0xa48edf=Package['get'](_0x3b2fbc(0xe4));if(!_0xa48edf)throw new Error(_0x3b2fbc(0xe6));_0x224b7b[_0x3b2fbc(0xdb)]('path',{'describe':'Bot\x20path','default':_0xa48edf});};module['exports']=[a19_0x4a3376(0xd9),'Execute\x20a\x20bot',cmdArgs,command];
+function a19_0x60b5(_0x422ed8, _0x15e1f0) {
+    const _0x362d2d = a19_0x362d();
+    return a19_0x60b5 = function (_0x60b5ea, _0x2d4d6d) {
+        _0x60b5ea = _0x60b5ea - 0x15e;
+        let _0x99747b = _0x362d2d[_0x60b5ea];
+        return _0x99747b;
+    }, a19_0x60b5(_0x422ed8, _0x15e1f0);
+}
+const a19_0x51b31 = a19_0x60b5;
+function a19_0x362d() {
+    const _0x39f5fb = [
+        '266060wOSZRf',
+        'Bot\x20path',
+        'exports',
+        '66420QxDmcQ',
+        '803109kOGkZQ',
+        '2029824TJaopi',
+        'now',
+        '675745OfNpNJ',
+        '135dzAgFv',
+        'main',
+        'run\x20[path]',
+        '75AGxKhc',
+        '2kRhfPc',
+        'jobId',
+        '134331TiqhBg',
+        '46912zyyJvO',
+        'get',
+        '00000000-0000-0000-0000-000000000000'
+    ];
+    a19_0x362d = function () {
+        return _0x39f5fb;
+    };
+    return a19_0x362d();
+}
+(function (_0x52784a, _0x57296d) {
+    const _0x39b604 = a19_0x60b5, _0x2f58af = _0x52784a();
+    while (!![]) {
+        try {
+            const _0x4f9f35 = -parseInt(_0x39b604(0x164)) / 0x1 * (parseInt(_0x39b604(0x162)) / 0x2) + -parseInt(_0x39b604(0x16c)) / 0x3 + parseInt(_0x39b604(0x165)) / 0x4 * (-parseInt(_0x39b604(0x161)) / 0x5) + -parseInt(_0x39b604(0x16b)) / 0x6 + parseInt(_0x39b604(0x16f)) / 0x7 + parseInt(_0x39b604(0x16d)) / 0x8 + -parseInt(_0x39b604(0x15e)) / 0x9 * (-parseInt(_0x39b604(0x168)) / 0xa);
+            if (_0x4f9f35 === _0x57296d)
+                break;
+            else
+                _0x2f58af['push'](_0x2f58af['shift']());
+        } catch (_0x4cad00) {
+            _0x2f58af['push'](_0x2f58af['shift']());
+        }
+    }
+}(a19_0x362d, 0x27249));
+const {resolve} = require('path'), runJob = require('../../engine/runJob'), Config = require('../../sdk/Config'), Package = require('../../sdk/Package'), command = async _0x474259 => {
+        const _0x4104a5 = a19_0x60b5;
+        await runJob({
+            'job_id': Config['get'](_0x4104a5(0x163), Date[_0x4104a5(0x16e)]()),
+            'bot_id': Config[_0x4104a5(0x166)]('id', Package[_0x4104a5(0x166)]('id', _0x4104a5(0x167))),
+            'botFn': require(resolve(_0x474259.path))
+        });
+    }, cmdArgs = _0xe3cf73 => {
+        const _0x3a9fc5 = a19_0x60b5, _0x4e1479 = Package[_0x3a9fc5(0x166)](_0x3a9fc5(0x15f));
+        if (!_0x4e1479)
+            throw new Error('Prorperly\x20main\x20not\x20set\x20in\x20package.json.\x20Please\x20set\x20it\x20to\x20the\x20path\x20of\x20the\x20bot\x20file.');
+        _0xe3cf73['positional']('path', {
+            'describe': _0x3a9fc5(0x169),
+            'default': _0x4e1479
+        });
+    };
+module[a19_0x51b31(0x16a)] = [
+    a19_0x51b31(0x160),
+    'Execute\x20a\x20bot',
+    cmdArgs,
+    command
+];

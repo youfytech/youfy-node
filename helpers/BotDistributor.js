@@ -1,1 +1,209 @@
-const a40_0x26c440=a40_0x1c34;(function(_0x3c309a,_0x492b0d){const _0x278f87=a40_0x1c34,_0x577d06=_0x3c309a();while(!![]){try{const _0x193533=parseInt(_0x278f87(0xa3))/0x1*(-parseInt(_0x278f87(0xa1))/0x2)+-parseInt(_0x278f87(0xa8))/0x3*(parseInt(_0x278f87(0xd4))/0x4)+parseInt(_0x278f87(0xbe))/0x5*(-parseInt(_0x278f87(0x99))/0x6)+-parseInt(_0x278f87(0x95))/0x7*(parseInt(_0x278f87(0x91))/0x8)+parseInt(_0x278f87(0x90))/0x9*(-parseInt(_0x278f87(0xd0))/0xa)+parseInt(_0x278f87(0xd5))/0xb*(-parseInt(_0x278f87(0x94))/0xc)+parseInt(_0x278f87(0x93))/0xd;if(_0x193533===_0x492b0d)break;else _0x577d06['push'](_0x577d06['shift']());}catch(_0x374642){_0x577d06['push'](_0x577d06['shift']());}}}(a40_0x33b4,0xf1127));const log=require('./logger'),findWorkspaceRoot=require(a40_0x26c440(0xae)),{execSync}=require(a40_0x26c440(0xa5)),{resolve,basename}=require(a40_0x26c440(0xbf)),{writeFileSync,existsSync}=require('fs');class BotDistributor{constructor(_0x44f391){const _0x151405=a40_0x26c440;this[_0x151405(0xcf)]={'base_dir':process[_0x151405(0x9b)](),'output_dir':'/tmp/yfy_bot_workspace_dist',..._0x44f391},this[_0x151405(0x8c)]=resolve(this[_0x151405(0xcf)][_0x151405(0xbc)],_0x151405(0x8b)),this[_0x151405(0xa6)]=this['getPackage'](),this[_0x151405(0xc2)]=findWorkspaceRoot(this['opts']['base_dir'])||this[_0x151405(0xcf)]['base_dir'],this[_0x151405(0x8f)]=resolve(this[_0x151405(0xcf)]['base_dir'],_0x151405(0x97)),this[_0x151405(0xc3)]=basename(this[_0x151405(0x8f)]),this[_0x151405(0xb3)]=resolve(this[_0x151405(0xcf)]['output_dir'],basename(this[_0x151405(0xa6)]['name'])),this[_0x151405(0xb7)]=resolve(this['bot_dir'],_0x151405(0x9c));}['getPackage'](){const _0x197332=a40_0x26c440;try{return require(this[_0x197332(0x8c)]);}catch(_0x204d0c){return console[_0x197332(0xd2)](_0x197332(0xba)),{};}}['_copyDir'](_0x946718,_0x2e2434,{cwd:_0x56dc81}={}){const _0x4de3f5=a40_0x26c440;execSync('rsync\x20--recursive\x20--exclude\x20\x27node_modules\x27\x20--exclude\x20\x27.git\x27\x20'+_0x946718+'\x20'+_0x2e2434,{'stdio':_0x4de3f5(0x92),'cwd':_0x56dc81});}[a40_0x26c440(0xac)](_0x137f0b,_0x13def,_0x306c2e){existsSync(_0x137f0b)&&this['_copyDir'](_0x137f0b,_0x13def,_0x306c2e);}[a40_0x26c440(0xc0)](){const _0x5b70f2=a40_0x26c440,{output_dir:_0x163481}=this[_0x5b70f2(0xcf)];execSync(_0x5b70f2(0xca)+_0x163481),execSync(_0x5b70f2(0xca)+this['dist_dir']);}['copySourceFiles'](){const _0x162d03=a40_0x26c440;log['info'](_0x162d03(0x8a)),execSync(_0x162d03(0xb6)+this[_0x162d03(0xb3)]);const {base_dir:_0x143380}=this[_0x162d03(0xcf)];this[_0x162d03(0xc9)]('*',this[_0x162d03(0xb3)],{'cwd':_0x143380});}['copySharedFiles'](){const _0x3e10ae=a40_0x26c440;log[_0x3e10ae(0x9f)](_0x3e10ae(0xa0));const _0x36c0e2=this[_0x3e10ae(0xcf)][_0x3e10ae(0xbd)];execSync(_0x3e10ae(0xb6)+_0x36c0e2+'/'+this[_0x3e10ae(0xc3)]),execSync(_0x3e10ae(0xb6)+_0x36c0e2+_0x3e10ae(0x98)),this[_0x3e10ae(0xac)](this[_0x3e10ae(0xc2)]+_0x3e10ae(0x9e),_0x36c0e2+_0x3e10ae(0x9e)),this['_copyDirIfExists'](this['holder_dir']+_0x3e10ae(0xc4),_0x36c0e2+'/'+this[_0x3e10ae(0xc3)]+_0x3e10ae(0xc4)),this[_0x3e10ae(0xac)](this[_0x3e10ae(0x8f)]+_0x3e10ae(0xc7),_0x36c0e2+'/'+this[_0x3e10ae(0xc3)]+'/apps');const _0x23446a=this[_0x3e10ae(0xa6)][_0x3e10ae(0xaf)]||[];for(const _0x50e33c of _0x23446a){this[_0x3e10ae(0xc9)](this['workspace_dir']+_0x3e10ae(0xc7)+_0x50e33c+'/',_0x36c0e2+_0x3e10ae(0xc7)+_0x50e33c+'/');}}[a40_0x26c440(0xb0)](){const _0x4ac1c8=a40_0x26c440;log[_0x4ac1c8(0x9f)](_0x4ac1c8(0xd3));const {output_dir:_0x4ee899}=this[_0x4ac1c8(0xcf)];execSync(_0x4ac1c8(0x8d),{'stdio':_0x4ac1c8(0x92),'cwd':_0x4ee899});}[a40_0x26c440(0xc5)](){const _0xfee48c=a40_0x26c440,_0x241252=this['pkg'];_0x241252['bin']=_0x241252[_0xfee48c(0xa7)]||'./index.js',_0x241252['main']=_0x241252[_0xfee48c(0x96)]||_0xfee48c(0x9d);const _0x3f439d=_0x241252[_0xfee48c(0xc1)]||{},_0x36d3cf=Array[_0xfee48c(0xad)](_0x3f439d['assets'])?_0x3f439d[_0xfee48c(0xa9)]:_0x3f439d['assets']?[_0x3f439d[_0xfee48c(0xa9)]]:[];_0x241252[_0xfee48c(0xa6)]={'scripts':[_0xfee48c(0x9a),..._0x3f439d['scripts']||[]],'assets':[_0xfee48c(0xa2),_0xfee48c(0xb4),..._0x36d3cf],'outputPath':_0xfee48c(0x9c)},_0x241252['scripts']={..._0x241252[_0xfee48c(0xc8)],'dist':_0xfee48c(0xb2)},writeFileSync(resolve(this[_0xfee48c(0xb3)],_0xfee48c(0x8b)),JSON[_0xfee48c(0x8e)](_0x241252));}['dist'](){const _0x2a2418=a40_0x26c440;this[_0x2a2418(0xc0)](),this[_0x2a2418(0xcc)](),this[_0x2a2418(0xc6)](),this[_0x2a2418(0xb1)](),this[_0x2a2418(0xc5)](),this[_0x2a2418(0xb0)](),execSync(_0x2a2418(0xab),{'stdio':_0x2a2418(0x92),'cwd':this[_0x2a2418(0xb3)]});}[a40_0x26c440(0xbb)](){const _0x230071=a40_0x26c440;execSync(_0x230071(0xb5)+this['dist_dir']+'\x20'+this[_0x230071(0xcf)][_0x230071(0xbc)]+'/dist');}[a40_0x26c440(0xaa)](){const _0xa13cb9=a40_0x26c440;execSync('rm\x20-Rf\x20'+this[_0xa13cb9(0xcf)][_0xa13cb9(0xbc)]+_0xa13cb9(0xb8));}[a40_0x26c440(0xb1)](){const _0x19fdb9=a40_0x26c440,_0x127206={'name':_0x19fdb9(0xcb),'private':!![],'workspaces':{'packages':[basename(this[_0x19fdb9(0xb3)]),_0x19fdb9(0xce),_0x19fdb9(0xd1),this['holder_name']+'/*']},'author':_0x19fdb9(0xa4),'license':_0x19fdb9(0xb9)};writeFileSync(resolve(this[_0x19fdb9(0xcf)]['output_dir'],_0x19fdb9(0x8b)),JSON['stringify'](_0x127206));}}function a40_0x1c34(_0x396226,_0x4a072f){const _0x33b418=a40_0x33b4();return a40_0x1c34=function(_0x1c3477,_0x5d20c4){_0x1c3477=_0x1c3477-0x8a;let _0x52e077=_0x33b418[_0x1c3477];return _0x52e077;},a40_0x1c34(_0x396226,_0x4a072f);}function a40_0x33b4(){const _0x3c2f75=['package.json','pkg_dir','yarn\x20install','stringify','holder_dir','9Fvryxw','8pwfhaV','inherit','64850513FfoqlR','2004wwVtEd','1535135sUSHxm','main','../','/apps','193818wnUMdi','**/*.js','cwd','dist','./src/index.js','/shared/','info','Coping\x20shared\x20files...','2737934uvpMBI','./src/assets/**','1zsmaTz','Alan\x20Bacelar\x20<alan@youfy.com.br>','child_process','pkg','bin','650979iEDgzf','assets','removeBaseDistDir','yarn\x20dist','_copyDirIfExists','isArray','find-yarn-workspace-root','apps','installDepedencies','createWorkspacePkgJson','pkg\x20--public-packages\x20\x22*\x22\x20.\x20--public','bot_dir','**/*.html','mv\x20','mkdir\x20-p\x20','dist_dir','/dist','ISC','Package.json\x20not\x20found.\x20It\x20should\x20be\x20in\x20the\x20root\x20of\x20the\x20project.','moveToBaseDir','base_dir','output_dir','65zFgppN','path','removeTempFiles','pkg_extras','workspace_dir','holder_name','/common/','changePkgForDist','copySharedFiles','/apps/','scripts','_copyDir','rm\x20-Rf\x20','bots','copySourceFiles','exports','shared','opts','427400hTeahp','apps/*','error','Install\x20bot\x20dependecies...','4bsVFBa','114158wFgMOj','Coping\x20bot\x20files...'];a40_0x33b4=function(){return _0x3c2f75;};return a40_0x33b4();}module[a40_0x26c440(0xcd)]=BotDistributor;
+const a40_0x25d12d = a40_0x15ed;
+function a40_0x15ed(_0x33c248, _0x360406) {
+    const _0x1d61ad = a40_0x1d61();
+    return a40_0x15ed = function (_0x15ed70, _0x4da07b) {
+        _0x15ed70 = _0x15ed70 - 0x16b;
+        let _0x3a21c9 = _0x1d61ad[_0x15ed70];
+        return _0x3a21c9;
+    }, a40_0x15ed(_0x33c248, _0x360406);
+}
+(function (_0x125231, _0x2a5eb4) {
+    const _0xa44eaa = a40_0x15ed, _0x3e2cd7 = _0x125231();
+    while (!![]) {
+        try {
+            const _0x1e9553 = -parseInt(_0xa44eaa(0x185)) / 0x1 * (parseInt(_0xa44eaa(0x177)) / 0x2) + parseInt(_0xa44eaa(0x1a3)) / 0x3 * (parseInt(_0xa44eaa(0x1a5)) / 0x4) + -parseInt(_0xa44eaa(0x19a)) / 0x5 + parseInt(_0xa44eaa(0x190)) / 0x6 + parseInt(_0xa44eaa(0x1aa)) / 0x7 * (parseInt(_0xa44eaa(0x174)) / 0x8) + parseInt(_0xa44eaa(0x171)) / 0x9 + -parseInt(_0xa44eaa(0x17e)) / 0xa;
+            if (_0x1e9553 === _0x2a5eb4)
+                break;
+            else
+                _0x3e2cd7['push'](_0x3e2cd7['shift']());
+        } catch (_0x584c01) {
+            _0x3e2cd7['push'](_0x3e2cd7['shift']());
+        }
+    }
+}(a40_0x1d61, 0x90f46));
+const log = require('./logger'), findWorkspaceRoot = require('find-yarn-workspace-root'), {execSync} = require('child_process'), {resolve, basename} = require('path'), {writeFileSync, existsSync} = require('fs');
+class BotDistributor {
+    constructor(_0x28ae3c) {
+        const _0x36465a = a40_0x15ed;
+        this[_0x36465a(0x19c)] = {
+            'base_dir': process[_0x36465a(0x189)](),
+            'output_dir': '/tmp/yfy_bot_workspace_dist',
+            ..._0x28ae3c
+        }, this['pkg_dir'] = resolve(this[_0x36465a(0x19c)]['base_dir'], _0x36465a(0x1a1)), this[_0x36465a(0x17a)] = this[_0x36465a(0x186)](), this[_0x36465a(0x18b)] = findWorkspaceRoot(this['opts'][_0x36465a(0x16d)]) || this[_0x36465a(0x19c)][_0x36465a(0x16d)], this[_0x36465a(0x191)] = resolve(this[_0x36465a(0x19c)][_0x36465a(0x16d)], _0x36465a(0x179)), this[_0x36465a(0x19d)] = basename(this[_0x36465a(0x191)]), this['bot_dir'] = resolve(this['opts'][_0x36465a(0x184)], basename(this[_0x36465a(0x17a)]['name'])), this[_0x36465a(0x180)] = resolve(this[_0x36465a(0x17b)], 'dist');
+    }
+    ['getPackage']() {
+        const _0x127436 = a40_0x15ed;
+        try {
+            return require(this.pkg_dir);
+        } catch (_0x3a3125) {
+            return console[_0x127436(0x170)](_0x127436(0x193)), {};
+        }
+    }
+    ['_copyDir'](_0x3f1ff5, _0x523608, {cwd: _0x4d6a35} = {}) {
+        const _0x5873eb = a40_0x15ed;
+        execSync(_0x5873eb(0x178) + _0x3f1ff5 + '\x20' + _0x523608, {
+            'stdio': _0x5873eb(0x17f),
+            'cwd': _0x4d6a35
+        });
+    }
+    ['_copyDirIfExists'](_0x3db3a0, _0x933b7f, _0x30e726) {
+        const _0x2a4111 = a40_0x15ed;
+        existsSync(_0x3db3a0) && this[_0x2a4111(0x183)](_0x3db3a0, _0x933b7f, _0x30e726);
+    }
+    [a40_0x25d12d(0x1ac)]() {
+        const _0x345df6 = a40_0x25d12d, {output_dir: _0x934467} = this[_0x345df6(0x19c)];
+        execSync('rm\x20-Rf\x20' + _0x934467), execSync(_0x345df6(0x187) + this[_0x345df6(0x180)]);
+    }
+    ['copySourceFiles']() {
+        const _0x2569f7 = a40_0x25d12d;
+        log[_0x2569f7(0x16c)](_0x2569f7(0x182)), execSync(_0x2569f7(0x198) + this[_0x2569f7(0x17b)]);
+        const {base_dir: _0x4d861f} = this[_0x2569f7(0x19c)];
+        this[_0x2569f7(0x183)]('*', this['bot_dir'], { 'cwd': _0x4d861f });
+    }
+    [a40_0x25d12d(0x18c)]() {
+        const _0x1caa06 = a40_0x25d12d;
+        log[_0x1caa06(0x16c)](_0x1caa06(0x18e));
+        const _0xf38d9 = this['opts'][_0x1caa06(0x184)];
+        execSync(_0x1caa06(0x198) + _0xf38d9 + '/' + this[_0x1caa06(0x19d)]), execSync(_0x1caa06(0x198) + _0xf38d9 + _0x1caa06(0x175)), this[_0x1caa06(0x173)](this[_0x1caa06(0x18b)] + _0x1caa06(0x19e), _0xf38d9 + '/shared/'), this[_0x1caa06(0x173)](this['holder_dir'] + _0x1caa06(0x176), _0xf38d9 + '/' + this[_0x1caa06(0x19d)] + '/common/'), this['_copyDirIfExists'](this[_0x1caa06(0x191)] + _0x1caa06(0x17c), _0xf38d9 + '/' + this[_0x1caa06(0x19d)] + _0x1caa06(0x175));
+        const _0x430944 = this[_0x1caa06(0x17a)][_0x1caa06(0x192)] || [];
+        for (const _0x1970aa of _0x430944) {
+            this[_0x1caa06(0x183)](this['workspace_dir'] + _0x1caa06(0x17c) + _0x1970aa + '/', _0xf38d9 + _0x1caa06(0x17c) + _0x1970aa + '/');
+        }
+    }
+    ['installDepedencies']() {
+        const _0xf68ddf = a40_0x25d12d;
+        log['info'](_0xf68ddf(0x1a8));
+        const {output_dir: _0xb4d730} = this['opts'];
+        execSync(_0xf68ddf(0x1a4), {
+            'stdio': _0xf68ddf(0x17f),
+            'cwd': _0xb4d730
+        });
+    }
+    [a40_0x25d12d(0x1a2)]() {
+        const _0x310b8e = a40_0x25d12d, _0x1be40b = this[_0x310b8e(0x17a)];
+        _0x1be40b[_0x310b8e(0x181)] = _0x1be40b[_0x310b8e(0x181)] || './index.js', _0x1be40b[_0x310b8e(0x1ab)] = _0x1be40b[_0x310b8e(0x1ab)] || './src/index.js';
+        const _0x333cff = _0x1be40b[_0x310b8e(0x172)] || {}, _0x4bda86 = Array[_0x310b8e(0x194)](_0x333cff[_0x310b8e(0x18d)]) ? _0x333cff[_0x310b8e(0x18d)] : _0x333cff['assets'] ? [_0x333cff[_0x310b8e(0x18d)]] : [];
+        _0x1be40b[_0x310b8e(0x17a)] = {
+            'scripts': [
+                '**/*.js',
+                ..._0x333cff[_0x310b8e(0x19f)] || []
+            ],
+            'assets': [
+                _0x310b8e(0x195),
+                _0x310b8e(0x196),
+                ..._0x4bda86
+            ],
+            'outputPath': _0x310b8e(0x18a)
+        }, _0x1be40b[_0x310b8e(0x19f)] = {
+            ..._0x1be40b[_0x310b8e(0x19f)],
+            'dist': _0x310b8e(0x16b)
+        }, writeFileSync(resolve(this['bot_dir'], 'package.json'), JSON[_0x310b8e(0x188)](_0x1be40b));
+    }
+    [a40_0x25d12d(0x18a)]() {
+        const _0x57e87a = a40_0x25d12d;
+        this['removeTempFiles'](), this[_0x57e87a(0x1a6)](), this['copySharedFiles'](), this[_0x57e87a(0x1a9)](), this[_0x57e87a(0x1a2)](), this['installDepedencies'](), execSync(_0x57e87a(0x16e), {
+            'stdio': _0x57e87a(0x17f),
+            'cwd': this[_0x57e87a(0x17b)]
+        });
+    }
+    ['moveToBaseDir']() {
+        const _0x59253c = a40_0x25d12d;
+        execSync(_0x59253c(0x17d) + this[_0x59253c(0x180)] + '\x20' + this['opts']['base_dir'] + _0x59253c(0x197));
+    }
+    [a40_0x25d12d(0x1a7)]() {
+        const _0x461020 = a40_0x25d12d;
+        execSync(_0x461020(0x187) + this[_0x461020(0x19c)][_0x461020(0x16d)] + _0x461020(0x197));
+    }
+    [a40_0x25d12d(0x1a9)]() {
+        const _0x262256 = a40_0x25d12d, _0x8d9269 = {
+                'name': _0x262256(0x19b),
+                'private': !![],
+                'workspaces': {
+                    'packages': [
+                        basename(this[_0x262256(0x17b)]),
+                        'shared',
+                        _0x262256(0x16f),
+                        this[_0x262256(0x19d)] + '/*'
+                    ]
+                },
+                'author': _0x262256(0x18f),
+                'license': _0x262256(0x1a0)
+            };
+        writeFileSync(resolve(this['opts'][_0x262256(0x184)], _0x262256(0x1a1)), JSON[_0x262256(0x188)](_0x8d9269));
+    }
+}
+module[a40_0x25d12d(0x199)] = BotDistributor;
+function a40_0x1d61() {
+    const _0x336812 = [
+        'removeTempFiles',
+        'pkg\x20--public-packages\x20\x22*\x22\x20.\x20--public',
+        'info',
+        'base_dir',
+        'yarn\x20dist',
+        'apps/*',
+        'error',
+        '4883724optwnM',
+        'pkg_extras',
+        '_copyDirIfExists',
+        '8fNeMmC',
+        '/apps',
+        '/common/',
+        '97488ZQmNXL',
+        'rsync\x20--recursive\x20--exclude\x20\x27node_modules\x27\x20--exclude\x20\x27.git\x27\x20',
+        '../',
+        'pkg',
+        'bot_dir',
+        '/apps/',
+        'mv\x20',
+        '2749800nHgvnA',
+        'inherit',
+        'dist_dir',
+        'bin',
+        'Coping\x20bot\x20files...',
+        '_copyDir',
+        'output_dir',
+        '17kFarpe',
+        'getPackage',
+        'rm\x20-Rf\x20',
+        'stringify',
+        'cwd',
+        'dist',
+        'workspace_dir',
+        'copySharedFiles',
+        'assets',
+        'Coping\x20shared\x20files...',
+        'Alan\x20Bacelar\x20<alan@youfy.com.br>',
+        '1255470QFXQOZ',
+        'holder_dir',
+        'apps',
+        'Package.json\x20not\x20found.\x20It\x20should\x20be\x20in\x20the\x20root\x20of\x20the\x20project.',
+        'isArray',
+        './src/assets/**',
+        '**/*.html',
+        '/dist',
+        'mkdir\x20-p\x20',
+        'exports',
+        '1582230maCUZa',
+        'bots',
+        'opts',
+        'holder_name',
+        '/shared/',
+        'scripts',
+        'ISC',
+        'package.json',
+        'changePkgForDist',
+        '198CVKWDS',
+        'yarn\x20install',
+        '67448GdrWLe',
+        'copySourceFiles',
+        'removeBaseDistDir',
+        'Install\x20bot\x20dependecies...',
+        'createWorkspacePkgJson',
+        '1043245yZTwHF',
+        'main'
+    ];
+    a40_0x1d61 = function () {
+        return _0x336812;
+    };
+    return a40_0x1d61();
+}

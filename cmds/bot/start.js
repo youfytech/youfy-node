@@ -1,1 +1,66 @@
-const a20_0x5a2ae4=a20_0x3b4b;function a20_0x3b4b(_0x1e92be,_0xb2c210){const _0x145135=a20_0x1451();return a20_0x3b4b=function(_0x3b4bea,_0x46e788){_0x3b4bea=_0x3b4bea-0xbc;let _0x1d3b0a=_0x145135[_0x3b4bea];return _0x1d3b0a;},a20_0x3b4b(_0x1e92be,_0xb2c210);}(function(_0x5663bf,_0x1316a5){const _0xf4391b=a20_0x3b4b,_0x30bc28=_0x5663bf();while(!![]){try{const _0x58e268=-parseInt(_0xf4391b(0xcd))/0x1+-parseInt(_0xf4391b(0xc2))/0x2+-parseInt(_0xf4391b(0xbf))/0x3+parseInt(_0xf4391b(0xce))/0x4*(-parseInt(_0xf4391b(0xc0))/0x5)+-parseInt(_0xf4391b(0xc8))/0x6*(parseInt(_0xf4391b(0xc3))/0x7)+-parseInt(_0xf4391b(0xcc))/0x8*(parseInt(_0xf4391b(0xc9))/0x9)+-parseInt(_0xf4391b(0xcb))/0xa*(-parseInt(_0xf4391b(0xca))/0xb);if(_0x58e268===_0x1316a5)break;else _0x30bc28['push'](_0x30bc28['shift']());}catch(_0x338687){_0x30bc28['push'](_0x30bc28['shift']());}}}(a20_0x1451,0x2c3df));function a20_0x1451(){const _0x158138=['140912yZjSER','4DktxJL','inherit','exports','daemon','pm2\x20start\x20--name=ws-','181674XldYKu','315985gOBvMC','start','38046HNLAtP','664265QxEsbo','exit','../../engine/server.js','child_process','../../sdk/Package','12CdNzMi','348417UNpJok','40469rMSSvy','1990zoUOzK','16soxGTO'];a20_0x1451=function(){return _0x158138;};return a20_0x1451();}const {execSync}=require(a20_0x5a2ae4(0xc6)),path=require('path'),Package=require(a20_0x5a2ae4(0xc7)),command=async _0x206649=>{const _0x4adc36=a20_0x5a2ae4,_0x2da05d=path['resolve'](__dirname,_0x4adc36(0xc5));if(!_0x206649[_0x4adc36(0xbd)])require(_0x2da05d);else{delete _0x206649[_0x4adc36(0xbd)];const _0x489f56=Package['get']('id');execSync(_0x4adc36(0xbe)+_0x489f56+'\x20'+_0x2da05d,{'stdio':_0x4adc36(0xcf)}),process[_0x4adc36(0xc4)](0x0);}};module[a20_0x5a2ae4(0xbc)]=[a20_0x5a2ae4(0xc1),'Start\x20the\x20bot\x20server',()=>{},command];
+function a20_0x4b83(_0x355bb0, _0x5080d6) {
+    const _0x248894 = a20_0x2488();
+    return a20_0x4b83 = function (_0x4b83ef, _0x25aea4) {
+        _0x4b83ef = _0x4b83ef - 0x1e2;
+        let _0x1d0fd1 = _0x248894[_0x4b83ef];
+        return _0x1d0fd1;
+    }, a20_0x4b83(_0x355bb0, _0x5080d6);
+}
+function a20_0x2488() {
+    const _0x3fdd86 = [
+        '../../engine/server.js',
+        'inherit',
+        '8TmvyJF',
+        '22osohVo',
+        'Start\x20the\x20bot\x20server',
+        '198441iQkvho',
+        '104ZJlXoE',
+        'resolve',
+        '7074iTtECM',
+        '1189660MlBolF',
+        '628qHvIwX',
+        'daemon',
+        '2332970WchFMb',
+        '2365461cRAsLO',
+        'exports',
+        '31ksfZbP',
+        'exit',
+        '1089396pWZyRl'
+    ];
+    a20_0x2488 = function () {
+        return _0x3fdd86;
+    };
+    return a20_0x2488();
+}
+const a20_0x18e708 = a20_0x4b83;
+(function (_0x394437, _0x334f0d) {
+    const _0x3d2007 = a20_0x4b83, _0x984f2f = _0x394437();
+    while (!![]) {
+        try {
+            const _0x17cbc5 = parseInt(_0x3d2007(0x1ed)) / 0x1 * (-parseInt(_0x3d2007(0x1e8)) / 0x2) + -parseInt(_0x3d2007(0x1e6)) / 0x3 * (parseInt(_0x3d2007(0x1e4)) / 0x4) + parseInt(_0x3d2007(0x1e7)) / 0x5 + parseInt(_0x3d2007(0x1ef)) / 0x6 + parseInt(_0x3d2007(0x1eb)) / 0x7 + -parseInt(_0x3d2007(0x1f2)) / 0x8 * (parseInt(_0x3d2007(0x1e3)) / 0x9) + -parseInt(_0x3d2007(0x1ea)) / 0xa * (parseInt(_0x3d2007(0x1f3)) / 0xb);
+            if (_0x17cbc5 === _0x334f0d)
+                break;
+            else
+                _0x984f2f['push'](_0x984f2f['shift']());
+        } catch (_0x2479d8) {
+            _0x984f2f['push'](_0x984f2f['shift']());
+        }
+    }
+}(a20_0x2488, 0x30468));
+const {execSync} = require('child_process'), path = require('path'), Package = require('../../sdk/Package'), command = async _0x53d591 => {
+        const _0x305214 = a20_0x4b83, _0x31d2e4 = path[_0x305214(0x1e5)](__dirname, _0x305214(0x1f0));
+        if (!_0x53d591[_0x305214(0x1e9)])
+            require(_0x31d2e4);
+        else {
+            delete _0x53d591[_0x305214(0x1e9)];
+            const _0x4ca9a8 = Package['get']('id');
+            execSync('pm2\x20start\x20--name=ws-' + _0x4ca9a8 + '\x20' + _0x31d2e4, { 'stdio': _0x305214(0x1f1) }), process[_0x305214(0x1ee)](0x0);
+        }
+    };
+module[a20_0x18e708(0x1ec)] = [
+    'start',
+    a20_0x18e708(0x1e2),
+    () => {
+    },
+    command
+];

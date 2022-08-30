@@ -1,1 +1,58 @@
-const a10_0x65af9e=a10_0x15c3;(function(_0x602b0a,_0x40b1ed){const _0xc1056=a10_0x15c3,_0x3210c3=_0x602b0a();while(!![]){try{const _0xd16d2f=parseInt(_0xc1056(0x143))/0x1*(parseInt(_0xc1056(0x14f))/0x2)+-parseInt(_0xc1056(0x157))/0x3+-parseInt(_0xc1056(0x148))/0x4*(parseInt(_0xc1056(0x14e))/0x5)+-parseInt(_0xc1056(0x155))/0x6*(-parseInt(_0xc1056(0x150))/0x7)+parseInt(_0xc1056(0x152))/0x8*(parseInt(_0xc1056(0x144))/0x9)+parseInt(_0xc1056(0x149))/0xa*(parseInt(_0xc1056(0x156))/0xb)+parseInt(_0xc1056(0x14d))/0xc;if(_0xd16d2f===_0x40b1ed)break;else _0x3210c3['push'](_0x3210c3['shift']());}catch(_0x1110a1){_0x3210c3['push'](_0x3210c3['shift']());}}}(a10_0x40ea,0xf1598));function a10_0x15c3(_0x4e0185,_0x2610e9){const _0x40ea63=a10_0x40ea();return a10_0x15c3=function(_0x15c305,_0x55a730){_0x15c305=_0x15c305-0x143;let _0xca1007=_0x40ea63[_0x15c305];return _0xca1007;},a10_0x15c3(_0x4e0185,_0x2610e9);}const axios=require('axios'),qs=require('qs'),axiosRetry=require(a10_0x65af9e(0x153)),Config=require(a10_0x65af9e(0x14b)),auth_token=Config[a10_0x65af9e(0x14a)](a10_0x65af9e(0x145)),baseURL=Config['get'](a10_0x65af9e(0x146),a10_0x65af9e(0x151)),dev_instance=axios[a10_0x65af9e(0x147)]({'baseURL':baseURL,'headers':{'Authorization':a10_0x65af9e(0x154)+auth_token},'paramsSerializer':_0xe25bef=>{return qs['stringify'](_0xe25bef);}});function a10_0x40ea(){const _0x214ef8=['728022dvZejy','49DlskFz','https://api.youfy.com.br/core','248zvJHCo','axios-retry','Bearer\x20','566424xjCXzq','18781587HzOTHb','4715382TQVvwS','3PaqyVc','149139RoXNZf','API_TOKEN','API_URL','create','465940TgYNIG','10wBgUoF','get','../sdk/Config','exports','4003896Iyaily','75wQdkOu'];a10_0x40ea=function(){return _0x214ef8;};return a10_0x40ea();}axiosRetry(dev_instance,{'retries':0x5,'retryDelay':_0x1bf995=>_0x1bf995*0xbb8}),module[a10_0x65af9e(0x14c)]=dev_instance;
+const a10_0x39a1c6 = a10_0x32e4;
+function a10_0x57bf() {
+    const _0x3807e1 = [
+        '33636stUbDL',
+        'exports',
+        '463556QjvgYY',
+        'API_URL',
+        'get',
+        '2866325GvIZmt',
+        '5GkWrXt',
+        '593040JMOsDM',
+        'create',
+        'Bearer\x20',
+        '5853128HUTSDn',
+        '562680xgbdBg',
+        '6VOMpdA',
+        '20371086CmzuAI',
+        'stringify'
+    ];
+    a10_0x57bf = function () {
+        return _0x3807e1;
+    };
+    return a10_0x57bf();
+}
+(function (_0xff4968, _0x5e6d34) {
+    const _0x4ba2db = a10_0x32e4, _0x2b05d8 = _0xff4968();
+    while (!![]) {
+        try {
+            const _0x3aff75 = -parseInt(_0x4ba2db(0x12e)) / 0x1 + -parseInt(_0x4ba2db(0x124)) / 0x2 * (parseInt(_0x4ba2db(0x127)) / 0x3) + parseInt(_0x4ba2db(0x129)) / 0x4 * (parseInt(_0x4ba2db(0x12d)) / 0x5) + -parseInt(_0x4ba2db(0x123)) / 0x6 + -parseInt(_0x4ba2db(0x12c)) / 0x7 + -parseInt(_0x4ba2db(0x122)) / 0x8 + parseInt(_0x4ba2db(0x125)) / 0x9;
+            if (_0x3aff75 === _0x5e6d34)
+                break;
+            else
+                _0x2b05d8['push'](_0x2b05d8['shift']());
+        } catch (_0x4fcf3c) {
+            _0x2b05d8['push'](_0x2b05d8['shift']());
+        }
+    }
+}(a10_0x57bf, 0x7e68b));
+const axios = require('axios'), qs = require('qs'), axiosRetry = require('axios-retry'), Config = require('../sdk/Config'), auth_token = Config[a10_0x39a1c6(0x12b)]('API_TOKEN'), baseURL = Config[a10_0x39a1c6(0x12b)](a10_0x39a1c6(0x12a), 'https://api.youfy.com.br/core'), dev_instance = axios[a10_0x39a1c6(0x120)]({
+        'baseURL': baseURL,
+        'headers': { 'Authorization': a10_0x39a1c6(0x121) + auth_token },
+        'paramsSerializer': _0x93f7b7 => {
+            const _0x244691 = a10_0x39a1c6;
+            return qs[_0x244691(0x126)](_0x93f7b7);
+        }
+    });
+function a10_0x32e4(_0x3b8dc4, _0x405b3e) {
+    const _0x57bfd3 = a10_0x57bf();
+    return a10_0x32e4 = function (_0x32e4d7, _0x558c07) {
+        _0x32e4d7 = _0x32e4d7 - 0x120;
+        let _0x5b0a4e = _0x57bfd3[_0x32e4d7];
+        return _0x5b0a4e;
+    }, a10_0x32e4(_0x3b8dc4, _0x405b3e);
+}
+axiosRetry(dev_instance, {
+    'retries': 0x5,
+    'retryDelay': _0x27ea0 => _0x27ea0 * 0xbb8
+}), module[a10_0x39a1c6(0x128)] = dev_instance;

@@ -1,1 +1,92 @@
-const a38_0x2b8923=a38_0x3c60;(function(_0x3d35b3,_0x2c296f){const _0x48baf1=a38_0x3c60,_0x3416aa=_0x3d35b3();while(!![]){try{const _0x1b7632=parseInt(_0x48baf1(0x1e7))/0x1*(parseInt(_0x48baf1(0x1ee))/0x2)+-parseInt(_0x48baf1(0x1ec))/0x3+-parseInt(_0x48baf1(0x1e5))/0x4+-parseInt(_0x48baf1(0x1e4))/0x5*(parseInt(_0x48baf1(0x1da))/0x6)+parseInt(_0x48baf1(0x1f0))/0x7+-parseInt(_0x48baf1(0x1ef))/0x8+parseInt(_0x48baf1(0x1e1))/0x9;if(_0x1b7632===_0x2c296f)break;else _0x3416aa['push'](_0x3416aa['shift']());}catch(_0x1f24db){_0x3416aa['push'](_0x3416aa['shift']());}}}(a38_0x1eef,0x53d47));function a38_0x3c60(_0x105bdb,_0x428c9d){const _0x1eefcd=a38_0x1eef();return a38_0x3c60=function(_0x3c6054,_0x20d38a){_0x3c6054=_0x3c6054-0x1d8;let _0x363d8a=_0x1eefcd[_0x3c6054];return _0x363d8a;},a38_0x3c60(_0x105bdb,_0x428c9d);}const retry=require('async-retry'),Messenger=require(a38_0x2b8923(0x1e6)),DataContext=require(a38_0x2b8923(0x1de)),DataState=require(a38_0x2b8923(0x1d8)),GarbageCollector=require('../sdk/GarbageCollector');function a38_0x1eef(){const _0x3b9e62=['1880BSbGvO','1353308BEIrDz','../sdk/Messenger','98257RECSMn','[GARBAGE\x20ERROR\x20ON\x20RETRY]','garbage','value','job_retries','864900uHYYDQ','input_data','6gxnQcX','2741488vWqvQB','1226001NoyxCG','../sdk/DataState','run','7944bhtaPG','find','job','get','../sdk/DataContext','clear','config','12065310SfDSnl','onRetry','bot'];a38_0x1eef=function(){return _0x3b9e62;};return a38_0x1eef();}class BotHandler{constructor(_0x4b0abd,{garbage:_0x4dd685}){const _0x3eb9bd=a38_0x2b8923;this['job']=_0x4b0abd,this[_0x3eb9bd(0x1e3)]=_0x4b0abd[_0x3eb9bd(0x1e3)]||{'settings':[]},this['garbage']=_0x4dd685||new GarbageCollector();}async[a38_0x2b8923(0x1d9)](_0x22de05){const _0x34b69b=a38_0x2b8923,_0x4372b8=this[_0x34b69b(0x1e3)]['settings'][_0x34b69b(0x1db)](_0x350166=>_0x350166['id']===_0x34b69b(0x1e0))||{},_0x1eebdb=this[_0x34b69b(0x1dc)][_0x34b69b(0x1ed)]||{},_0x583cb8=new DataContext(_0x4372b8[_0x34b69b(0x1ea)],{'readonly':!![]}),_0x1b11ec=new DataState('job-'+this[_0x34b69b(0x1dc)]['id']),_0x11f772=new Messenger(this[_0x34b69b(0x1dc)]),_0x2c7a81={'garbage':this[_0x34b69b(0x1e9)],'state':_0x1b11ec,'bot':new DataContext(this[_0x34b69b(0x1e3)],{'readonly':!![]}),'job':new DataContext(this[_0x34b69b(0x1dc)],{'readonly':!![]}),'messenger':_0x11f772,'msg':_0x11f772,'config':_0x583cb8,'inputData':new DataContext(_0x1eebdb,{'readonly':!![]})};await retry(async(_0x45e83a,_0x4e2851)=>{await _0x22de05(_0x2c7a81,{'bail':_0x45e83a,'attempts':_0x4e2851});},{'retries':_0x583cb8[_0x34b69b(0x1dd)](_0x34b69b(0x1eb),0x2),'onRetry':this['onRetry']['bind'](this)});}[a38_0x2b8923(0x1e2)](_0x4a858a){const _0x6fc15f=a38_0x2b8923;try{console['error'](_0x4a858a),this[_0x6fc15f(0x1e9)][_0x6fc15f(0x1df)]();}catch(_0x20f859){console['log'](_0x6fc15f(0x1e8),_0x20f859);}}}module['exports']=BotHandler;
+const a38_0x28a7dc = a38_0x566e;
+function a38_0x566e(_0x5355f9, _0x486c5e) {
+    const _0x14da43 = a38_0x14da();
+    return a38_0x566e = function (_0x566e44, _0x4f0afd) {
+        _0x566e44 = _0x566e44 - 0x1b3;
+        let _0x54a4b9 = _0x14da43[_0x566e44];
+        return _0x54a4b9;
+    }, a38_0x566e(_0x5355f9, _0x486c5e);
+}
+(function (_0x285ec3, _0x1ed53a) {
+    const _0x221171 = a38_0x566e, _0x2554e7 = _0x285ec3();
+    while (!![]) {
+        try {
+            const _0x353708 = parseInt(_0x221171(0x1c7)) / 0x1 + -parseInt(_0x221171(0x1c0)) / 0x2 * (parseInt(_0x221171(0x1c8)) / 0x3) + -parseInt(_0x221171(0x1b8)) / 0x4 + -parseInt(_0x221171(0x1b7)) / 0x5 + -parseInt(_0x221171(0x1b9)) / 0x6 + -parseInt(_0x221171(0x1c2)) / 0x7 + -parseInt(_0x221171(0x1b3)) / 0x8 * (-parseInt(_0x221171(0x1be)) / 0x9);
+            if (_0x353708 === _0x1ed53a)
+                break;
+            else
+                _0x2554e7['push'](_0x2554e7['shift']());
+        } catch (_0x4778e9) {
+            _0x2554e7['push'](_0x2554e7['shift']());
+        }
+    }
+}(a38_0x14da, 0x7012c));
+const retry = require('async-retry'), Messenger = require('../sdk/Messenger'), DataContext = require('../sdk/DataContext'), DataState = require('../sdk/DataState'), GarbageCollector = require('../sdk/GarbageCollector');
+class BotHandler {
+    constructor(_0x43419b, {garbage: _0x592121}) {
+        const _0x31c0f2 = a38_0x566e;
+        this['job'] = _0x43419b, this[_0x31c0f2(0x1bd)] = _0x43419b[_0x31c0f2(0x1bd)] || { 'settings': [] }, this['garbage'] = _0x592121 || new GarbageCollector();
+    }
+    async [a38_0x28a7dc(0x1b5)](_0x11e113) {
+        const _0x4e577b = a38_0x28a7dc, _0x1e8559 = this[_0x4e577b(0x1bd)][_0x4e577b(0x1c1)][_0x4e577b(0x1c4)](_0xcb23e5 => _0xcb23e5['id'] === 'config') || {}, _0x45a8b7 = this[_0x4e577b(0x1c5)]['input_data'] || {}, _0x175ab9 = new DataContext(_0x1e8559[_0x4e577b(0x1c9)], { 'readonly': !![] }), _0x558157 = new DataState(_0x4e577b(0x1ba) + this[_0x4e577b(0x1c5)]['id']), _0x36fee0 = new Messenger(this[_0x4e577b(0x1c5)]), _0x5cf920 = {
+                'garbage': this[_0x4e577b(0x1c3)],
+                'state': _0x558157,
+                'bot': new DataContext(this['bot'], { 'readonly': !![] }),
+                'job': new DataContext(this[_0x4e577b(0x1c5)], { 'readonly': !![] }),
+                'messenger': _0x36fee0,
+                'msg': _0x36fee0,
+                'config': _0x175ab9,
+                'inputData': new DataContext(_0x45a8b7, { 'readonly': !![] })
+            };
+        await retry(async (_0x225c2e, _0x285adc) => {
+            await _0x11e113(_0x5cf920, {
+                'bail': _0x225c2e,
+                'attempts': _0x285adc
+            });
+        }, {
+            'retries': _0x175ab9['get'](_0x4e577b(0x1b6), 0x2),
+            'onRetry': this[_0x4e577b(0x1bc)][_0x4e577b(0x1bf)](this)
+        });
+    }
+    ['onRetry'](_0x52ce71) {
+        const _0x955a9d = a38_0x28a7dc;
+        try {
+            console[_0x955a9d(0x1c6)](_0x52ce71), this[_0x955a9d(0x1c3)][_0x955a9d(0x1bb)]();
+        } catch (_0x1a80cc) {
+            console[_0x955a9d(0x1ca)](_0x955a9d(0x1b4), _0x1a80cc);
+        }
+    }
+}
+function a38_0x14da() {
+    const _0x24ad12 = [
+        'garbage',
+        'find',
+        'job',
+        'error',
+        '640424bQKeUl',
+        '3kJAMMU',
+        'value',
+        'log',
+        '576TcXXUM',
+        '[GARBAGE\x20ERROR\x20ON\x20RETRY]',
+        'run',
+        'job_retries',
+        '2190120SAOijH',
+        '301312HhRmtR',
+        '4828830wLmemO',
+        'job-',
+        'clear',
+        'onRetry',
+        'bot',
+        '184194tsVGSh',
+        'bind',
+        '91942xVoVOH',
+        'settings',
+        '2035572MejUUm'
+    ];
+    a38_0x14da = function () {
+        return _0x24ad12;
+    };
+    return a38_0x14da();
+}
+module['exports'] = BotHandler;

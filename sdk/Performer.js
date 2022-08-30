@@ -1,1 +1,121 @@
-const a68_0x3a569b=a68_0x5bc9;function a68_0x5bc9(_0x4c6cbf,_0x2bb1c3){const _0x16d3d5=a68_0x16d3();return a68_0x5bc9=function(_0x5bc904,_0x41230e){_0x5bc904=_0x5bc904-0x1e6;let _0x1af74c=_0x16d3d5[_0x5bc904];return _0x1af74c;},a68_0x5bc9(_0x4c6cbf,_0x2bb1c3);}function a68_0x16d3(){const _0x575234=['DONE','./WorkObject','forEach','ValidationError','name','1968212jCpmWB','Work\x20object\x20must\x20be\x20a\x20instance\x20of\x20WorkObject','config','notDone','1402761ZDqHip','retries','dispatch','12CKSlJS','BreakError','done','opts','fail','4066VDcTaY','9185528ZTTUuq','workObjects\x20must\x20be\x20an\x20array','7658298GeczGC','run','error','./EventHandler','object_retries','7QyuJME','6880740QqkBvc','status','get','28030572MytQwq','failed','./Logger'];a68_0x16d3=function(){return _0x575234;};return a68_0x16d3();}(function(_0x1b4321,_0x12f2fc){const _0x4d5928=a68_0x5bc9,_0x615bcb=_0x1b4321();while(!![]){try{const _0x2b546a=parseInt(_0x4d5928(0x1fb))/0x1*(parseInt(_0x4d5928(0x1f6))/0x2)+-parseInt(_0x4d5928(0x1f3))/0x3+parseInt(_0x4d5928(0x1ef))/0x4+parseInt(_0x4d5928(0x204))/0x5+parseInt(_0x4d5928(0x1fe))/0x6+parseInt(_0x4d5928(0x203))/0x7*(parseInt(_0x4d5928(0x1fc))/0x8)+-parseInt(_0x4d5928(0x1e7))/0x9;if(_0x2b546a===_0x12f2fc)break;else _0x615bcb['push'](_0x615bcb['shift']());}catch(_0x24da39){_0x615bcb['push'](_0x615bcb['shift']());}}}(a68_0x16d3,0xb3764));const retry=require('async-retry'),logger=require(a68_0x3a569b(0x1e9)),WorkObject=require(a68_0x3a569b(0x1eb)),EventHandler=require(a68_0x3a569b(0x201)),defaultOptions={'retries':0x2};class Performer extends EventHandler{constructor(_0x1f2613,_0x576d97={}){const _0x25f262=a68_0x3a569b;super(),this['context']=_0x1f2613,this[_0x25f262(0x1f9)]={...defaultOptions,..._0x576d97},this[_0x25f262(0x1f4)]=_0x1f2613[_0x25f262(0x1f1)][_0x25f262(0x1e6)](_0x25f262(0x202),this['opts'][_0x25f262(0x1f4)]);}async[a68_0x3a569b(0x1ff)](_0x8d07ec,_0x27ffe6){const _0x3dc24f=a68_0x3a569b;if(!(_0x27ffe6 instanceof WorkObject)){const _0x3640b8=_0x3dc24f(0x1f0);logger['error'](_0x3640b8);throw new Error(_0x3640b8);}if(_0x27ffe6[_0x3dc24f(0x205)]===_0x3dc24f(0x1ea))return;try{await _0x27ffe6['init']();const _0x32116f=async(_0x497bd4,_0x1a414b)=>{const _0x3df316=_0x3dc24f;_0x1a414b&&await _0x27ffe6['initRetry'](_0x1a414b);try{await _0x8d07ec(_0x27ffe6,{'bail':_0x497bd4,'attempts':_0x1a414b});}catch(_0x204e5c){if(_0x204e5c[_0x3df316(0x1ee)]===_0x3df316(0x1ed)){_0x497bd4(_0x204e5c);return;}throw _0x204e5c;}},_0x1a1b31=await retry(_0x32116f,{'retries':this[_0x3dc24f(0x1f4)],'onRetry':_0x174409=>console[_0x3dc24f(0x200)](_0x174409)});return await _0x27ffe6[_0x3dc24f(0x1f8)](),_0x1a1b31;}catch(_0x2f971b){_0x2f971b['name']===_0x3dc24f(0x1ed)?await _0x27ffe6[_0x3dc24f(0x1f2)](_0x2f971b):await _0x27ffe6[_0x3dc24f(0x1e8)](_0x2f971b);await this[_0x3dc24f(0x1f5)](_0x3dc24f(0x1fa),_0x2f971b);if(_0x2f971b['name']===_0x3dc24f(0x1f7))throw _0x2f971b;}}async[a68_0x3a569b(0x1ec)](_0x4e7ab5,_0x215b0f){const _0x1048af=a68_0x3a569b;if(!Array['isArray'](_0x215b0f))throw new Error(_0x1048af(0x1fd));for(const _0x4a39ed of _0x215b0f){await this[_0x1048af(0x1ff)](_0x4e7ab5,_0x4a39ed);}}}module['exports']=Performer;
+const a68_0x101cf7 = a68_0x512f;
+function a68_0x410b() {
+    const _0x3e4bba = [
+        '447060hHmXsk',
+        'initRetry',
+        'fail',
+        'exports',
+        '18hKMnxB',
+        '177536bycTrW',
+        'DONE',
+        'Work\x20object\x20must\x20be\x20a\x20instance\x20of\x20WorkObject',
+        'workObjects\x20must\x20be\x20an\x20array',
+        'error',
+        '968mFItur',
+        'opts',
+        'status',
+        '7690qVFfZI',
+        'retries',
+        '10EYcULB',
+        '3740900qVLvaS',
+        'name',
+        '555204Jnvppr',
+        '326470QjAvwT',
+        'failed',
+        '361194ImVJSr',
+        'notDone',
+        'BreakError',
+        '1422XOPkEL',
+        'done',
+        'context',
+        'forEach',
+        '413dnLhjF',
+        'object_retries',
+        'init',
+        'ValidationError',
+        'run'
+    ];
+    a68_0x410b = function () {
+        return _0x3e4bba;
+    };
+    return a68_0x410b();
+}
+function a68_0x512f(_0x902dab, _0x356611) {
+    const _0x410b99 = a68_0x410b();
+    return a68_0x512f = function (_0x512f71, _0x58199c) {
+        _0x512f71 = _0x512f71 - 0x107;
+        let _0x38e5e0 = _0x410b99[_0x512f71];
+        return _0x38e5e0;
+    }, a68_0x512f(_0x902dab, _0x356611);
+}
+(function (_0x563f43, _0x1b4183) {
+    const _0xc384b0 = a68_0x512f, _0x27845c = _0x563f43();
+    while (!![]) {
+        try {
+            const _0x2484b2 = parseInt(_0xc384b0(0x126)) / 0x1 + -parseInt(_0xc384b0(0x123)) / 0x2 * (parseInt(_0xc384b0(0x108)) / 0x3) + -parseInt(_0xc384b0(0x124)) / 0x4 + -parseInt(_0xc384b0(0x127)) / 0x5 * (parseInt(_0xc384b0(0x118)) / 0x6) + -parseInt(_0xc384b0(0x10f)) / 0x7 * (parseInt(_0xc384b0(0x119)) / 0x8) + -parseInt(_0xc384b0(0x10b)) / 0x9 * (parseInt(_0xc384b0(0x121)) / 0xa) + parseInt(_0xc384b0(0x11e)) / 0xb * (parseInt(_0xc384b0(0x114)) / 0xc);
+            if (_0x2484b2 === _0x1b4183)
+                break;
+            else
+                _0x27845c['push'](_0x27845c['shift']());
+        } catch (_0x4b133c) {
+            _0x27845c['push'](_0x27845c['shift']());
+        }
+    }
+}(a68_0x410b, 0xa3815));
+const retry = require('async-retry'), logger = require('./Logger'), WorkObject = require('./WorkObject'), EventHandler = require('./EventHandler'), defaultOptions = { 'retries': 0x2 };
+class Performer extends EventHandler {
+    constructor(_0x476f8c, _0x33a4ac = {}) {
+        const _0x2226bb = a68_0x512f;
+        super(), this[_0x2226bb(0x10d)] = _0x476f8c, this[_0x2226bb(0x11f)] = {
+            ...defaultOptions,
+            ..._0x33a4ac
+        }, this[_0x2226bb(0x122)] = _0x476f8c['config']['get'](_0x2226bb(0x110), this[_0x2226bb(0x11f)][_0x2226bb(0x122)]);
+    }
+    async [a68_0x101cf7(0x113)](_0x5a2e60, _0x58a36f) {
+        const _0x53f564 = a68_0x101cf7;
+        if (!(_0x58a36f instanceof WorkObject)) {
+            const _0x56642a = _0x53f564(0x11b);
+            logger[_0x53f564(0x11d)](_0x56642a);
+            throw new Error(_0x56642a);
+        }
+        if (_0x58a36f[_0x53f564(0x120)] === _0x53f564(0x11a))
+            return;
+        try {
+            await _0x58a36f[_0x53f564(0x111)]();
+            const _0x90b25 = async (_0x5604f3, _0x2fdbfc) => {
+                    const _0x430776 = _0x53f564;
+                    _0x2fdbfc && await _0x58a36f[_0x430776(0x115)](_0x2fdbfc);
+                    try {
+                        await _0x5a2e60(_0x58a36f, {
+                            'bail': _0x5604f3,
+                            'attempts': _0x2fdbfc
+                        });
+                    } catch (_0x244ef2) {
+                        if (_0x244ef2['name'] === _0x430776(0x112)) {
+                            _0x5604f3(_0x244ef2);
+                            return;
+                        }
+                        throw _0x244ef2;
+                    }
+                }, _0x1c3619 = await retry(_0x90b25, {
+                    'retries': this[_0x53f564(0x122)],
+                    'onRetry': _0x57b412 => console[_0x53f564(0x11d)](_0x57b412)
+                });
+            return await _0x58a36f[_0x53f564(0x10c)](), _0x1c3619;
+        } catch (_0x327051) {
+            _0x327051[_0x53f564(0x125)] === 'ValidationError' ? await _0x58a36f[_0x53f564(0x109)](_0x327051) : await _0x58a36f[_0x53f564(0x107)](_0x327051);
+            await this['dispatch'](_0x53f564(0x116), _0x327051);
+            if (_0x327051[_0x53f564(0x125)] === _0x53f564(0x10a))
+                throw _0x327051;
+        }
+    }
+    async [a68_0x101cf7(0x10e)](_0x524c74, _0x2cd5ab) {
+        const _0x2273d3 = a68_0x101cf7;
+        if (!Array['isArray'](_0x2cd5ab))
+            throw new Error(_0x2273d3(0x11c));
+        for (const _0x1ab12a of _0x2cd5ab) {
+            await this[_0x2273d3(0x113)](_0x524c74, _0x1ab12a);
+        }
+    }
+}
+module[a68_0x101cf7(0x117)] = Performer;

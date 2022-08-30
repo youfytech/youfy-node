@@ -1,1 +1,101 @@
-const a13_0x40bf82=a13_0x536f;(function(_0x59a271,_0xd41faa){const _0x381c18=a13_0x536f,_0x41e3ba=_0x59a271();while(!![]){try{const _0x1e153d=parseInt(_0x381c18(0x9b))/0x1*(parseInt(_0x381c18(0xa9))/0x2)+-parseInt(_0x381c18(0xa7))/0x3*(-parseInt(_0x381c18(0x97))/0x4)+-parseInt(_0x381c18(0xa0))/0x5+parseInt(_0x381c18(0x9c))/0x6*(parseInt(_0x381c18(0x96))/0x7)+parseInt(_0x381c18(0x99))/0x8*(-parseInt(_0x381c18(0xa6))/0x9)+-parseInt(_0x381c18(0x9d))/0xa+parseInt(_0x381c18(0xa4))/0xb*(parseInt(_0x381c18(0x95))/0xc);if(_0x1e153d===_0xd41faa)break;else _0x41e3ba['push'](_0x41e3ba['shift']());}catch(_0x4bd4f6){_0x41e3ba['push'](_0x41e3ba['shift']());}}}(a13_0x3b45,0x875f2));const MockState=require('./MockState'),{v4:uuidv4}=require(a13_0x40bf82(0x98));function a13_0x536f(_0x33eb6f,_0x1ba389){const _0x3b45db=a13_0x3b45();return a13_0x536f=function(_0x536f67,_0x4e8888){_0x536f67=_0x536f67-0x95;let _0xe86267=_0x3b45db[_0x536f67];return _0xe86267;},a13_0x536f(_0x33eb6f,_0x1ba389);}class JobMock{static async['fetch'](){const _0x531fd0=a13_0x40bf82;return MockState['get'](_0x531fd0(0xaa));}static['_updateJob'](_0x2ea882){const _0xc93ef1=a13_0x40bf82,_0x41fd11={...MockState['get'](_0xc93ef1(0xaa)),..._0x2ea882};return MockState[_0xc93ef1(0x9e)](_0xc93ef1(0xaa),_0x41fd11),_0x41fd11;}static async['init'](_0x5ca5bb,_0x2b04c5){const _0x512107=a13_0x40bf82;return this['_updateJob']({'id':_0x5ca5bb,'bot_id':_0x2b04c5,'status':_0x512107(0x9a),'started_at':new Date()});}static async[a13_0x40bf82(0xa3)](_0x168bed){const _0x30e08e=a13_0x40bf82,_0x1b6dc5=uuidv4(),_0xa605e2=MockState[_0x30e08e(0xa5)](_0x30e08e(0xaa));return MockState['set']('job',{'id':_0x1b6dc5,..._0xa605e2,..._0x168bed}),MockState[_0x30e08e(0xa5)](_0x30e08e(0xaa));}static async['updateStatus'](_0x210427,_0x4acaaa,_0xdd346f){const _0x2d695e=a13_0x40bf82;return this[_0x2d695e(0xa8)]({'id':_0x210427,'status':_0x4acaaa[_0x2d695e(0x9f)](),'error':_0xdd346f});}static async['update'](_0x52d29e,_0x287399){return this['_updateJob']({'id':_0x52d29e,..._0x287399});}static async['addWarn'](_0x116737,_0x3b0967){const _0x283939=a13_0x40bf82;return _0x3b0967[_0x283939(0xa1)]=_0x116737,_0x3b0967;}}function a13_0x3b45(){const _0x5cdb0e=['4647016yeGygY','get','18qkupmK','1427739tbUQIV','_updateJob','8XWcAoQ','job','24BbdXFv','63ZRQald','4yJEegv','uuid','294664WPQKsv','WORKING','129726vQYWmK','230478lIIbMg','9560290ZEPWXR','set','toUpperCase','3006345JfXYYA','job_id','exports','create'];a13_0x3b45=function(){return _0x5cdb0e;};return a13_0x3b45();}module[a13_0x40bf82(0xa2)]=JobMock;
+const a13_0x2f787a = a13_0x59b3;
+(function (_0x10e482, _0x2bd638) {
+    const _0x35808 = a13_0x59b3, _0x519f28 = _0x10e482();
+    while (!![]) {
+        try {
+            const _0x10fd04 = parseInt(_0x35808(0x1b0)) / 0x1 * (parseInt(_0x35808(0x1b9)) / 0x2) + parseInt(_0x35808(0x1b1)) / 0x3 + -parseInt(_0x35808(0x1aa)) / 0x4 + -parseInt(_0x35808(0x1b2)) / 0x5 + -parseInt(_0x35808(0x1ab)) / 0x6 + -parseInt(_0x35808(0x1a6)) / 0x7 * (parseInt(_0x35808(0x1a8)) / 0x8) + -parseInt(_0x35808(0x1a7)) / 0x9 * (-parseInt(_0x35808(0x1b7)) / 0xa);
+            if (_0x10fd04 === _0x2bd638)
+                break;
+            else
+                _0x519f28['push'](_0x519f28['shift']());
+        } catch (_0x3226ec) {
+            _0x519f28['push'](_0x519f28['shift']());
+        }
+    }
+}(a13_0x145f, 0xa7984));
+function a13_0x59b3(_0x4f5f0d, _0x192be4) {
+    const _0x145f30 = a13_0x145f();
+    return a13_0x59b3 = function (_0x59b3ec, _0x211834) {
+        _0x59b3ec = _0x59b3ec - 0x1a6;
+        let _0x3f67cf = _0x145f30[_0x59b3ec];
+        return _0x3f67cf;
+    }, a13_0x59b3(_0x4f5f0d, _0x192be4);
+}
+const MockState = require('./MockState'), {v4: uuidv4} = require('uuid');
+class JobMock {
+    static async [a13_0x2f787a(0x1b6)]() {
+        const _0x438257 = a13_0x2f787a;
+        return MockState[_0x438257(0x1b4)](_0x438257(0x1ad));
+    }
+    static [a13_0x2f787a(0x1b5)](_0x16247b) {
+        const _0x2d7a4a = a13_0x2f787a, _0x369d73 = {
+                ...MockState['get']('job'),
+                ..._0x16247b
+            };
+        return MockState['set'](_0x2d7a4a(0x1ad), _0x369d73), _0x369d73;
+    }
+    static async ['init'](_0x18b040, _0x9d4e9) {
+        return this['_updateJob']({
+            'id': _0x18b040,
+            'bot_id': _0x9d4e9,
+            'status': 'WORKING',
+            'started_at': new Date()
+        });
+    }
+    static async [a13_0x2f787a(0x1a9)](_0x2bf80f) {
+        const _0x32b670 = a13_0x2f787a, _0x12a6ab = uuidv4(), _0x3bf9eb = MockState[_0x32b670(0x1b4)](_0x32b670(0x1ad));
+        return MockState['set']('job', {
+            'id': _0x12a6ab,
+            ..._0x3bf9eb,
+            ..._0x2bf80f
+        }), MockState[_0x32b670(0x1b4)](_0x32b670(0x1ad));
+    }
+    static async [a13_0x2f787a(0x1b8)](_0x5d86d3, _0xd5237a, _0x29ab67) {
+        const _0x2fc3d2 = a13_0x2f787a;
+        return this[_0x2fc3d2(0x1b5)]({
+            'id': _0x5d86d3,
+            'status': _0xd5237a[_0x2fc3d2(0x1ac)](),
+            'error': _0x29ab67
+        });
+    }
+    static async [a13_0x2f787a(0x1af)](_0x214e0b, _0x4a962f) {
+        const _0x564c2b = a13_0x2f787a;
+        return this[_0x564c2b(0x1b5)]({
+            'id': _0x214e0b,
+            ..._0x4a962f
+        });
+    }
+    static async [a13_0x2f787a(0x1b3)](_0x5c04df, _0x5aeba7) {
+        const _0x18dd8d = a13_0x2f787a;
+        return _0x5aeba7[_0x18dd8d(0x1ae)] = _0x5c04df, _0x5aeba7;
+    }
+}
+function a13_0x145f() {
+    const _0x313b1b = [
+        '_updateJob',
+        'fetch',
+        '16054940QGOwzK',
+        'updateStatus',
+        '11902MSFTtq',
+        '2590224lPppae',
+        '18mkScrK',
+        '16UHlIqZ',
+        'create',
+        '3058508pujSTr',
+        '3085590mVRPWd',
+        'toUpperCase',
+        'job',
+        'job_id',
+        'update',
+        '55lefXJR',
+        '325983IHbDPo',
+        '4707650zelcOk',
+        'addWarn',
+        'get'
+    ];
+    a13_0x145f = function () {
+        return _0x313b1b;
+    };
+    return a13_0x145f();
+}
+module['exports'] = JobMock;

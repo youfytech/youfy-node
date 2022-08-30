@@ -1,1 +1,71 @@
-const a45_0x1c9c0e=a45_0x5692;(function(_0x6d5f65,_0x4a7091){const _0x1f6afd=a45_0x5692,_0x8381ae=_0x6d5f65();while(!![]){try{const _0x5e2207=-parseInt(_0x1f6afd(0x1e8))/0x1*(parseInt(_0x1f6afd(0x1d2))/0x2)+parseInt(_0x1f6afd(0x1e3))/0x3*(-parseInt(_0x1f6afd(0x1d0))/0x4)+-parseInt(_0x1f6afd(0x1d7))/0x5+parseInt(_0x1f6afd(0x1d1))/0x6*(-parseInt(_0x1f6afd(0x1db))/0x7)+-parseInt(_0x1f6afd(0x1e4))/0x8*(-parseInt(_0x1f6afd(0x1d6))/0x9)+parseInt(_0x1f6afd(0x1cf))/0xa+parseInt(_0x1f6afd(0x1de))/0xb*(parseInt(_0x1f6afd(0x1d8))/0xc);if(_0x5e2207===_0x4a7091)break;else _0x8381ae['push'](_0x8381ae['shift']());}catch(_0x2ac2f7){_0x8381ae['push'](_0x8381ae['shift']());}}}(a45_0x292f,0x3af83));const io=require(a45_0x1c9c0e(0x1d5)),Config=require('../sdk/Config'),Device=require('../helpers/Device'),ws_uri=Config[a45_0x1c9c0e(0x1dd)](a45_0x1c9c0e(0x1e5),a45_0x1c9c0e(0x1d4)),api_token=Config[a45_0x1c9c0e(0x1dd)]('API_TOKEN');module[a45_0x1c9c0e(0x1da)]=(_0x515c55,_0x306487,_0x169e9c=!![])=>{const _0x49273a=a45_0x1c9c0e,_0x1bb002=Device[_0x49273a(0x1d3)](),_0x3cb040=_0x169e9c?{'auth':{'device_id':_0x1bb002,'bot_id':_0x515c55,'version':_0x306487}}:{'extraHeaders':{'Authorization':_0x49273a(0x1d9)+api_token}},_0x4def03=io(ws_uri,_0x3cb040);return _0x4def03['on'](_0x49273a(0x1df),_0x102169=>{const _0x2c6762=_0x49273a;console[_0x2c6762(0x1e0)]('Can\x27t\x20connect\x20to\x20realtime\x20server.',_0x102169[_0x2c6762(0x1e2)]);}),_0x4def03['on']('connect',()=>{const _0x494af8=_0x49273a;console['log'](_0x494af8(0x1dc)+ws_uri+'.','ID',_0x4def03['id']);}),_0x4def03['on'](_0x49273a(0x1ce),async()=>{const _0x48ee76=_0x49273a;console[_0x48ee76(0x1e0)](_0x48ee76(0x1e6));}),_0x4def03['on'](_0x49273a(0x1e7),()=>console[_0x49273a(0x1e0)](_0x49273a(0x1e1))),_0x4def03;};function a45_0x5692(_0x33a2d6,_0x30b377){const _0x292fe1=a45_0x292f();return a45_0x5692=function(_0x5692c5,_0xc37e27){_0x5692c5=_0x5692c5-0x1ce;let _0x44b959=_0x292fe1[_0x5692c5];return _0x44b959;},a45_0x5692(_0x33a2d6,_0x30b377);}function a45_0x292f(){const _0x21f4b1=['Bot\x20was\x20disconnected.','connect','7RdefAa','disconnect','1374300MjyUtg','148jXcZIY','68142wvHTAa','31466OOdEVx','getId','wss://ws.youfy.com.br','socket.io-client','109638QgwhfD','81460nmJepi','300QAOjgr','Bearer\x20','exports','133TDAqoC','Bot\x20is\x20connected\x20to\x20realtime\x20server:\x20','get','304238wWkqAP','connect_error','log','WS\x20Connected!','message','22839ACNlMg','24CjJaWW','REALTIME_SERVER_URI'];a45_0x292f=function(){return _0x21f4b1;};return a45_0x292f();}
+const a45_0x4f325e = a45_0x36e1;
+function a45_0x5495() {
+    const _0x61702c = [
+        '10ufnFNN',
+        'API_TOKEN',
+        'exports',
+        '6462630fUnQbO',
+        '145tuXzPd',
+        '116026zjDVDM',
+        'connect_error',
+        'WS\x20Connected!',
+        '7jzDgZG',
+        '24069749lbBLJg',
+        '11420888HaDQuL',
+        '206728dzaeGI',
+        '3748770FPSEgo',
+        'getId',
+        '14752863tleKkl',
+        'Bot\x20is\x20connected\x20to\x20realtime\x20server:\x20',
+        '12NECKOz',
+        'disconnect',
+        'connect',
+        'log',
+        '7KMIAVe'
+    ];
+    a45_0x5495 = function () {
+        return _0x61702c;
+    };
+    return a45_0x5495();
+}
+(function (_0x259a04, _0x141697) {
+    const _0x32a6b3 = a45_0x36e1, _0xb168d = _0x259a04();
+    while (!![]) {
+        try {
+            const _0x36abe0 = -parseInt(_0x32a6b3(0x16e)) / 0x1 * (-parseInt(_0x32a6b3(0x15f)) / 0x2) + -parseInt(_0x32a6b3(0x166)) / 0x3 + parseInt(_0x32a6b3(0x165)) / 0x4 * (parseInt(_0x32a6b3(0x15e)) / 0x5) + parseInt(_0x32a6b3(0x15d)) / 0x6 + -parseInt(_0x32a6b3(0x162)) / 0x7 * (parseInt(_0x32a6b3(0x164)) / 0x8) + parseInt(_0x32a6b3(0x168)) / 0x9 * (-parseInt(_0x32a6b3(0x16f)) / 0xa) + parseInt(_0x32a6b3(0x163)) / 0xb * (parseInt(_0x32a6b3(0x16a)) / 0xc);
+            if (_0x36abe0 === _0x141697)
+                break;
+            else
+                _0xb168d['push'](_0xb168d['shift']());
+        } catch (_0x9937f6) {
+            _0xb168d['push'](_0xb168d['shift']());
+        }
+    }
+}(a45_0x5495, 0xd06dd));
+function a45_0x36e1(_0xe5e7c4, _0x324287) {
+    const _0x5495dc = a45_0x5495();
+    return a45_0x36e1 = function (_0x36e15a, _0x5a0527) {
+        _0x36e15a = _0x36e15a - 0x15b;
+        let _0x1e6ab1 = _0x5495dc[_0x36e15a];
+        return _0x1e6ab1;
+    }, a45_0x36e1(_0xe5e7c4, _0x324287);
+}
+const io = require('socket.io-client'), Config = require('../sdk/Config'), Device = require('../helpers/Device'), ws_uri = Config['get']('REALTIME_SERVER_URI', 'wss://ws.youfy.com.br'), api_token = Config['get'](a45_0x4f325e(0x15b));
+module[a45_0x4f325e(0x15c)] = (_0x500549, _0x4e8c3d, _0x3792a3 = !![]) => {
+    const _0x5b70ed = a45_0x4f325e, _0x559766 = Device[_0x5b70ed(0x167)](), _0x5ac809 = _0x3792a3 ? {
+            'auth': {
+                'device_id': _0x559766,
+                'bot_id': _0x500549,
+                'version': _0x4e8c3d
+            }
+        } : { 'extraHeaders': { 'Authorization': 'Bearer\x20' + api_token } }, _0x148e14 = io(ws_uri, _0x5ac809);
+    return _0x148e14['on'](_0x5b70ed(0x160), _0x42dab9 => {
+        console['log']('Can\x27t\x20connect\x20to\x20realtime\x20server.', _0x42dab9['message']);
+    }), _0x148e14['on'](_0x5b70ed(0x16c), () => {
+        const _0x21e1e7 = _0x5b70ed;
+        console[_0x21e1e7(0x16d)](_0x21e1e7(0x169) + ws_uri + '.', 'ID', _0x148e14['id']);
+    }), _0x148e14['on'](_0x5b70ed(0x16b), async () => {
+        const _0x3a3954 = _0x5b70ed;
+        console[_0x3a3954(0x16d)]('Bot\x20was\x20disconnected.');
+    }), _0x148e14['on'](_0x5b70ed(0x16c), () => console[_0x5b70ed(0x16d)](_0x5b70ed(0x161))), _0x148e14;
+};

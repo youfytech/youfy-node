@@ -1,1 +1,132 @@
-function a66_0x5104(_0xf65378,_0x25e5b3){const _0x2c4dc5=a66_0x2c4d();return a66_0x5104=function(_0x5104df,_0x35cd5f){_0x5104df=_0x5104df-0xc6;let _0x133b2b=_0x2c4dc5[_0x5104df];return _0x133b2b;},a66_0x5104(_0xf65378,_0x25e5b3);}function a66_0x2c4d(){const _0x35cbf0=['270qUSsYs','create','8166136qLIraQ','72025FsVTmW','findOrCreate','toLowerCase','bind','bot','_parse2WorkObject','68841DKnfrb','assign','1028598QwxTnq','bulkCreate','job','isArray','Done','Payload\x20must\x20be\x20a\x20object:\x20{}','../helpers/Status','fetch','616hPbzHi','556676MKqDrP','../api/WorkObject','Failed','push','5qVFFMC','map','./WorkObject','fetchAll','slice','108PWKYuD','fetchByStatus','1185UrwlkD','forEach','findByStatus','length','Pending','10542NRMceF'];a66_0x2c4d=function(){return _0x35cbf0;};return a66_0x2c4d();}const a66_0x391d2d=a66_0x5104;(function(_0x59dd9e,_0x34742b){const _0x733e0a=a66_0x5104,_0xfb6f2b=_0x59dd9e();while(!![]){try{const _0x251f6e=parseInt(_0x733e0a(0xdf))/0x1+parseInt(_0x733e0a(0xd4))/0x2*(-parseInt(_0x733e0a(0xd6))/0x3)+-parseInt(_0x733e0a(0xcb))/0x4+parseInt(_0x733e0a(0xcf))/0x5*(-parseInt(_0x733e0a(0xe7))/0x6)+-parseInt(_0x733e0a(0xdb))/0x7*(parseInt(_0x733e0a(0xca))/0x8)+parseInt(_0x733e0a(0xe5))/0x9*(-parseInt(_0x733e0a(0xdc))/0xa)+parseInt(_0x733e0a(0xde))/0xb;if(_0x251f6e===_0x34742b)break;else _0xfb6f2b['push'](_0xfb6f2b['shift']());}catch(_0x570362){_0xfb6f2b['push'](_0xfb6f2b['shift']());}}}(a66_0x2c4d,0x270f0));const WorkObject=require(a66_0x391d2d(0xd1)),WorkObjectApi=require(a66_0x391d2d(0xcc)),Status=require(a66_0x391d2d(0xc8)),statusMethods=[a66_0x391d2d(0xda),a66_0x391d2d(0xc6),a66_0x391d2d(0xcd)];class ObjectManager{constructor(_0x2e7583){const _0x4888f7=a66_0x391d2d;Object[_0x4888f7(0xe6)](this,_0x2e7583),statusMethods[_0x4888f7(0xd7)](_0xdc501e=>this[_0x4888f7(0xc9)+_0xdc501e]=this[_0x4888f7(0xd5)][_0x4888f7(0xe2)](this,_0xdc501e[_0x4888f7(0xe1)]()));}[a66_0x391d2d(0xe4)](_0x16b39a){const _0x2018c7=a66_0x391d2d;if(Array[_0x2018c7(0xea)](_0x16b39a))return _0x16b39a[_0x2018c7(0xd0)](_0x17732f=>new WorkObject(_0x17732f));return new WorkObject(_0x16b39a);}async['fetchAll'](_0x4d88ee){const _0x267635=a66_0x391d2d,_0x14b686=await WorkObjectApi[_0x267635(0xd2)](this[_0x267635(0xe3)]['id'],_0x4d88ee);return this[_0x267635(0xe4)](_0x14b686);}async[a66_0x391d2d(0xd5)](_0x64031b){const _0x39f0d3=a66_0x391d2d,_0x3bc012=await WorkObjectApi[_0x39f0d3(0xd8)](this[_0x39f0d3(0xe9)]['id'],_0x64031b);return this[_0x39f0d3(0xe4)](_0x3bc012);}async[a66_0x391d2d(0xe8)](_0x516599,_0x3c9f5b,_0x576389={}){const _0x134966=a66_0x391d2d,{chunk_size:chunk_size=0x64}=_0x576389,_0x2d6702=_0x516599[_0x134966(0xd0)](_0x612083=>{const _0x24ed6b=_0x134966;return{..._0x3c9f5b,'payload':_0x612083,'bot_id':this[_0x24ed6b(0xe3)]['id'],'job_id':this[_0x24ed6b(0xe9)]['id']};}),_0x5869a3=[];for(let _0x12d6c7=0x0;_0x12d6c7<_0x2d6702[_0x134966(0xd9)];_0x12d6c7+=chunk_size){const _0x5a048b=_0x2d6702[_0x134966(0xd3)](_0x12d6c7,_0x12d6c7+chunk_size),_0x1de3b4=await WorkObjectApi[_0x134966(0xe8)](_0x5a048b);_0x5869a3[_0x134966(0xce)](..._0x1de3b4);}return this[_0x134966(0xe4)](_0x5869a3);}async[a66_0x391d2d(0xdd)](_0x5cada4,_0x2b8576){const _0xa7b583=a66_0x391d2d;if(Array['isArray'](_0x5cada4))throw new Error(_0xa7b583(0xc7));const _0x276d2d=await WorkObjectApi[_0xa7b583(0xdd)]({'status':Status['WORKING'],..._0x2b8576,'payload':_0x5cada4,'bot_id':this[_0xa7b583(0xe3)]['id'],'job_id':this[_0xa7b583(0xe9)]['id']});return this[_0xa7b583(0xe4)](_0x276d2d);}async[a66_0x391d2d(0xe0)](_0x45dc21,_0x968256,_0x54440f){const _0x53d0c1=a66_0x391d2d,_0x13dc1c=await WorkObjectApi[_0x53d0c1(0xe0)](_0x45dc21,{..._0x54440f,'payload':_0x968256,'bot_id':this[_0x53d0c1(0xe3)]['id'],'job_id':this[_0x53d0c1(0xe9)]['id']});return this[_0x53d0c1(0xe4)](_0x13dc1c);}}module['exports']=ObjectManager;
+const a66_0x108509 = a66_0x5177;
+(function (_0x209e9c, _0x4e6e4c) {
+    const _0xe68144 = a66_0x5177, _0x24efe0 = _0x209e9c();
+    while (!![]) {
+        try {
+            const _0x32bfca = -parseInt(_0xe68144(0xb5)) / 0x1 * (parseInt(_0xe68144(0xc2)) / 0x2) + parseInt(_0xe68144(0xb2)) / 0x3 + -parseInt(_0xe68144(0xc9)) / 0x4 * (-parseInt(_0xe68144(0xba)) / 0x5) + parseInt(_0xe68144(0xb4)) / 0x6 * (parseInt(_0xe68144(0xce)) / 0x7) + -parseInt(_0xe68144(0xd4)) / 0x8 * (parseInt(_0xe68144(0xbf)) / 0x9) + parseInt(_0xe68144(0xc1)) / 0xa * (-parseInt(_0xe68144(0xcc)) / 0xb) + -parseInt(_0xe68144(0xd2)) / 0xc;
+            if (_0x32bfca === _0x4e6e4c)
+                break;
+            else
+                _0x24efe0['push'](_0x24efe0['shift']());
+        } catch (_0x1a5e61) {
+            _0x24efe0['push'](_0x24efe0['shift']());
+        }
+    }
+}(a66_0x144b, 0x33d26));
+const WorkObject = require('./WorkObject'), WorkObjectApi = require('../api/WorkObject'), Status = require('../helpers/Status'), statusMethods = [
+        a66_0x108509(0xb8),
+        'Done',
+        a66_0x108509(0xbb)
+    ];
+function a66_0x5177(_0x2a51ef, _0x437ea1) {
+    const _0x144bd3 = a66_0x144b();
+    return a66_0x5177 = function (_0x5177ad, _0x35d2b0) {
+        _0x5177ad = _0x5177ad - 0xb2;
+        let _0x1714ad = _0x144bd3[_0x5177ad];
+        return _0x1714ad;
+    }, a66_0x5177(_0x2a51ef, _0x437ea1);
+}
+function a66_0x144b() {
+    const _0x4849f5 = [
+        '812390RbKpvk',
+        '1598DiuKdo',
+        'bulkCreate',
+        'bind',
+        'length',
+        'create',
+        'WORKING',
+        'fetchByStatus',
+        '547544CvgJdJ',
+        'findByStatus',
+        'map',
+        '11EgvLXJ',
+        'findOrCreate',
+        '42fHPcLK',
+        'exports',
+        '_parse2WorkObject',
+        'push',
+        '2729292hWdSXP',
+        'isArray',
+        '1142728yfXdPD',
+        '1059438rjgeMO',
+        'slice',
+        '74418XgBmSC',
+        '47OSSMVd',
+        'Payload\x20must\x20be\x20a\x20object:\x20{}',
+        'job',
+        'Pending',
+        'toLowerCase',
+        '10UmSMHL',
+        'Failed',
+        'fetch',
+        'bot',
+        'fetchAll',
+        '9gDmiox',
+        'forEach'
+    ];
+    a66_0x144b = function () {
+        return _0x4849f5;
+    };
+    return a66_0x144b();
+}
+class ObjectManager {
+    constructor(_0x62aeb5) {
+        const _0x293bcf = a66_0x108509;
+        Object['assign'](this, _0x62aeb5), statusMethods[_0x293bcf(0xc0)](_0x652a6b => this[_0x293bcf(0xbc) + _0x652a6b] = this[_0x293bcf(0xc8)][_0x293bcf(0xc4)](this, _0x652a6b[_0x293bcf(0xb9)]()));
+    }
+    [a66_0x108509(0xd0)](_0x2f62df) {
+        const _0x4815d1 = a66_0x108509;
+        if (Array[_0x4815d1(0xd3)](_0x2f62df))
+            return _0x2f62df['map'](_0x35ce42 => new WorkObject(_0x35ce42));
+        return new WorkObject(_0x2f62df);
+    }
+    async ['fetchAll'](_0x213468) {
+        const _0x43e47a = a66_0x108509, _0x36091b = await WorkObjectApi[_0x43e47a(0xbe)](this['bot']['id'], _0x213468);
+        return this['_parse2WorkObject'](_0x36091b);
+    }
+    async ['fetchByStatus'](_0x3076f3) {
+        const _0x5bd0f6 = a66_0x108509, _0xe98876 = await WorkObjectApi[_0x5bd0f6(0xca)](this['job']['id'], _0x3076f3);
+        return this[_0x5bd0f6(0xd0)](_0xe98876);
+    }
+    async [a66_0x108509(0xc3)](_0x549269, _0x2c761b, _0x5932dc = {}) {
+        const _0x591443 = a66_0x108509, {
+                chunk_size: chunk_size = 0x64
+            } = _0x5932dc, _0x5cf678 = _0x549269[_0x591443(0xcb)](_0x41c7a3 => {
+                const _0x5f06e4 = _0x591443;
+                return {
+                    ..._0x2c761b,
+                    'payload': _0x41c7a3,
+                    'bot_id': this['bot']['id'],
+                    'job_id': this[_0x5f06e4(0xb7)]['id']
+                };
+            }), _0x3c2529 = [];
+        for (let _0x3922a9 = 0x0; _0x3922a9 < _0x5cf678[_0x591443(0xc5)]; _0x3922a9 += chunk_size) {
+            const _0x15a9d = _0x5cf678[_0x591443(0xb3)](_0x3922a9, _0x3922a9 + chunk_size), _0x58f4a0 = await WorkObjectApi[_0x591443(0xc3)](_0x15a9d);
+            _0x3c2529[_0x591443(0xd1)](..._0x58f4a0);
+        }
+        return this[_0x591443(0xd0)](_0x3c2529);
+    }
+    async [a66_0x108509(0xc6)](_0x4dab43, _0x15b700) {
+        const _0x1a3f2d = a66_0x108509;
+        if (Array[_0x1a3f2d(0xd3)](_0x4dab43))
+            throw new Error(_0x1a3f2d(0xb6));
+        const _0x2aa817 = await WorkObjectApi[_0x1a3f2d(0xc6)]({
+            'status': Status[_0x1a3f2d(0xc7)],
+            ..._0x15b700,
+            'payload': _0x4dab43,
+            'bot_id': this[_0x1a3f2d(0xbd)]['id'],
+            'job_id': this[_0x1a3f2d(0xb7)]['id']
+        });
+        return this[_0x1a3f2d(0xd0)](_0x2aa817);
+    }
+    async ['findOrCreate'](_0x2eae14, _0x22a06e, _0x29c1d0) {
+        const _0x915551 = a66_0x108509, _0xc7ed57 = await WorkObjectApi[_0x915551(0xcd)](_0x2eae14, {
+                ..._0x29c1d0,
+                'payload': _0x22a06e,
+                'bot_id': this[_0x915551(0xbd)]['id'],
+                'job_id': this[_0x915551(0xb7)]['id']
+            });
+        return this[_0x915551(0xd0)](_0xc7ed57);
+    }
+}
+module[a66_0x108509(0xcf)] = ObjectManager;

@@ -1,1 +1,68 @@
-function a16_0x57f3(){const _0x559b26=['data.json','1693260ZXHExR','226293gBCwhv','280xLhrbk','403645cUGzpZ','7672850fGNLjq','path','resolve','bot','145134IJskFp','86946uEieFT','27CnchGY','job','11YplMsT','4IcfXXl','376663RkTTGr','exports','cwd','./data.json'];a16_0x57f3=function(){return _0x559b26;};return a16_0x57f3();}const a16_0x34f766=a16_0x43db;(function(_0x6af6b0,_0x505d70){const _0x571993=a16_0x43db,_0x1447b8=_0x6af6b0();while(!![]){try{const _0x2539f6=-parseInt(_0x571993(0x1df))/0x1+-parseInt(_0x571993(0x1e7))/0x2*(parseInt(_0x571993(0x1e8))/0x3)+-parseInt(_0x571993(0x1d8))/0x4*(parseInt(_0x571993(0x1e1))/0x5)+-parseInt(_0x571993(0x1de))/0x6+-parseInt(_0x571993(0x1d9))/0x7+parseInt(_0x571993(0x1e0))/0x8*(parseInt(_0x571993(0x1e6))/0x9)+-parseInt(_0x571993(0x1e2))/0xa*(-parseInt(_0x571993(0x1d7))/0xb);if(_0x2539f6===_0x505d70)break;else _0x1447b8['push'](_0x1447b8['shift']());}catch(_0x4a554a){_0x1447b8['push'](_0x1447b8['shift']());}}}(a16_0x57f3,0x489b5));const path=require(a16_0x34f766(0x1e3)),requireJson=_0x2b846f=>{try{return require(_0x2b846f);}catch(_0x15bf35){return{'job':{},'bot':{},'work_object':{}};}},$defaultData=requireJson(a16_0x34f766(0x1dc));$defaultData['job']['bot']=$defaultData['bot']||{};const $data=requireJson(path[a16_0x34f766(0x1e4)](process[a16_0x34f766(0x1db)](),a16_0x34f766(0x1dd)));function a16_0x43db(_0x42b946,_0x177fad){const _0x57f375=a16_0x57f3();return a16_0x43db=function(_0x43dba7,_0x4b0b51){_0x43dba7=_0x43dba7-0x1d6;let _0x4cea7a=_0x57f375[_0x43dba7];return _0x4cea7a;},a16_0x43db(_0x42b946,_0x177fad);}$data['job'][a16_0x34f766(0x1e5)]={...$defaultData[a16_0x34f766(0x1d6)][a16_0x34f766(0x1e5)],...$data[a16_0x34f766(0x1e5)]},module[a16_0x34f766(0x1da)]={...$defaultData,...$data};
+const a16_0xb6feaa = a16_0x4a2b;
+(function (_0x50efeb, _0x476568) {
+    const _0x5c8218 = a16_0x4a2b, _0x1b3555 = _0x50efeb();
+    while (!![]) {
+        try {
+            const _0x4881f5 = -parseInt(_0x5c8218(0xe6)) / 0x1 * (parseInt(_0x5c8218(0xe3)) / 0x2) + -parseInt(_0x5c8218(0xe5)) / 0x3 + parseInt(_0x5c8218(0xe4)) / 0x4 + parseInt(_0x5c8218(0xda)) / 0x5 * (-parseInt(_0x5c8218(0xd8)) / 0x6) + -parseInt(_0x5c8218(0xdc)) / 0x7 * (parseInt(_0x5c8218(0xe2)) / 0x8) + -parseInt(_0x5c8218(0xd9)) / 0x9 + -parseInt(_0x5c8218(0xe7)) / 0xa * (-parseInt(_0x5c8218(0xe0)) / 0xb);
+            if (_0x4881f5 === _0x476568)
+                break;
+            else
+                _0x1b3555['push'](_0x1b3555['shift']());
+        } catch (_0x228389) {
+            _0x1b3555['push'](_0x1b3555['shift']());
+        }
+    }
+}(a16_0x4099, 0xc697b));
+function a16_0x4099() {
+    const _0x3fe87f = [
+        'bot',
+        'cwd',
+        '1055252cNhpBA',
+        'data.json',
+        '40FSTtfy',
+        '177902VRgWCD',
+        '99400RrLNZw',
+        '1290435hCbSDE',
+        '7xlbrTi',
+        '340EdZBAe',
+        'exports',
+        '1028898noiJsm',
+        '4670793gokmST',
+        '15aXJGhy',
+        'job',
+        '541625KbvtFx',
+        'resolve'
+    ];
+    a16_0x4099 = function () {
+        return _0x3fe87f;
+    };
+    return a16_0x4099();
+}
+const path = require('path'), requireJson = _0x3415cc => {
+        try {
+            return require(_0x3415cc);
+        } catch (_0x229594) {
+            return {
+                'job': {},
+                'bot': {},
+                'work_object': {}
+            };
+        }
+    }, $defaultData = requireJson('./data.json');
+function a16_0x4a2b(_0x6b6888, _0x5bc964) {
+    const _0x4099ed = a16_0x4099();
+    return a16_0x4a2b = function (_0x4a2b0a, _0x242f4a) {
+        _0x4a2b0a = _0x4a2b0a - 0xd7;
+        let _0x505a4d = _0x4099ed[_0x4a2b0a];
+        return _0x505a4d;
+    }, a16_0x4a2b(_0x6b6888, _0x5bc964);
+}
+$defaultData[a16_0xb6feaa(0xdb)]['bot'] = $defaultData[a16_0xb6feaa(0xde)] || {};
+const $data = requireJson(path[a16_0xb6feaa(0xdd)](process[a16_0xb6feaa(0xdf)](), a16_0xb6feaa(0xe1)));
+$data[a16_0xb6feaa(0xdb)][a16_0xb6feaa(0xde)] = {
+    ...$defaultData[a16_0xb6feaa(0xdb)][a16_0xb6feaa(0xde)],
+    ...$data[a16_0xb6feaa(0xde)]
+}, module[a16_0xb6feaa(0xd7)] = {
+    ...$defaultData,
+    ...$data
+};

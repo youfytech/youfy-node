@@ -1,1 +1,94 @@
-function a62_0x532f(_0x1fc1ee,_0x4e0430){const _0x124c36=a62_0x124c();return a62_0x532f=function(_0x532f84,_0x484652){_0x532f84=_0x532f84-0x179;let _0x1443ab=_0x124c36[_0x532f84];return _0x1443ab;},a62_0x532f(_0x1fc1ee,_0x4e0430);}const a62_0x342f28=a62_0x532f;(function(_0x15f4e7,_0x91ff6){const _0x18f454=a62_0x532f,_0x17653a=_0x15f4e7();while(!![]){try{const _0x45de7c=-parseInt(_0x18f454(0x184))/0x1+parseInt(_0x18f454(0x186))/0x2+parseInt(_0x18f454(0x17f))/0x3+parseInt(_0x18f454(0x18b))/0x4*(parseInt(_0x18f454(0x180))/0x5)+-parseInt(_0x18f454(0x191))/0x6+-parseInt(_0x18f454(0x185))/0x7+parseInt(_0x18f454(0x18f))/0x8*(-parseInt(_0x18f454(0x17a))/0x9);if(_0x45de7c===_0x91ff6)break;else _0x17653a['push'](_0x17653a['shift']());}catch(_0x5796bc){_0x17653a['push'](_0x17653a['shift']());}}}(a62_0x124c,0x5090e));const nodemailer=require(a62_0x342f28(0x18d)),Handlebars=require('handlebars'),SettingsApi=require(a62_0x342f28(0x182)),TemplateApi=require(a62_0x342f28(0x17e));function a62_0x124c(){const _0x1815af=['sendMail','getTemplateData','addAttachment','2794842UBqdkZ','createTransport','getByName','email','../api/Template','1033773LMVGIt','75IvLkXr','addTemplate','../api/Settings','get','199281fWJULi','423017CSawDm','1129656evSNym','html','push','auth','compile','147324UOziop','payload','nodemailer','user','16bgVFCP','attachments','1506588mTGNOh'];a62_0x124c=function(){return _0x1815af;};return a62_0x124c();}class Mailer{constructor(_0x15f7d2){const _0x40c462=a62_0x342f28;this['settings']=_0x15f7d2,this[_0x40c462(0x187)]='',this['attachments']=[];}async[a62_0x342f28(0x193)](_0x5b51e3){const _0x2edb14=a62_0x342f28,_0x464840=await TemplateApi[_0x2edb14(0x17c)](_0x5b51e3);if(_0x464840){const _0x573300=_0x464840[_0x2edb14(0x18c)]||{};return _0x573300[_0x2edb14(0x187)];}return null;}async[a62_0x342f28(0x181)](_0x55ae0d,_0xf3f29a){const _0x1157ae=a62_0x342f28,_0x37ce42=await this[_0x1157ae(0x193)](_0x55ae0d),_0x16bd1a=_0x37ce42?Handlebars[_0x1157ae(0x18a)](_0x37ce42):null;this[_0x1157ae(0x187)]=_0x16bd1a(_0xf3f29a);}[a62_0x342f28(0x179)](_0x4fb9e5){const _0x45dbb4=a62_0x342f28;this[_0x45dbb4(0x190)][_0x45dbb4(0x188)](_0x4fb9e5);}async['send'](_0x512ea3){const _0x260ea4=a62_0x342f28,_0x2a5ced=this['settings']||await SettingsApi[_0x260ea4(0x183)](_0x260ea4(0x17d)),_0x11e1a3=nodemailer[_0x260ea4(0x17b)](_0x2a5ced),_0x37e71d=[...this['attachments'],..._0x512ea3[_0x260ea4(0x190)]||[]],_0x491799={'from':_0x2a5ced[_0x260ea4(0x189)][_0x260ea4(0x18e)],..._0x512ea3,'html':this[_0x260ea4(0x187)]+(_0x512ea3['html']||''),'attachments':_0x37e71d};return await _0x11e1a3[_0x260ea4(0x192)](_0x491799);}}module['exports']=Mailer;
+const a62_0x408e12 = a62_0x5f5e;
+(function (_0x2842a9, _0x1288c2) {
+    const _0x336c69 = a62_0x5f5e, _0x4d314a = _0x2842a9();
+    while (!![]) {
+        try {
+            const _0x4272cd = -parseInt(_0x336c69(0x1fc)) / 0x1 + parseInt(_0x336c69(0x208)) / 0x2 + -parseInt(_0x336c69(0x204)) / 0x3 * (-parseInt(_0x336c69(0x209)) / 0x4) + -parseInt(_0x336c69(0x206)) / 0x5 * (parseInt(_0x336c69(0x205)) / 0x6) + -parseInt(_0x336c69(0x20a)) / 0x7 * (parseInt(_0x336c69(0x202)) / 0x8) + -parseInt(_0x336c69(0x1f6)) / 0x9 * (parseInt(_0x336c69(0x1fa)) / 0xa) + -parseInt(_0x336c69(0x1f4)) / 0xb * (-parseInt(_0x336c69(0x1ff)) / 0xc);
+            if (_0x4272cd === _0x1288c2)
+                break;
+            else
+                _0x4d314a['push'](_0x4d314a['shift']());
+        } catch (_0x287745) {
+            _0x4d314a['push'](_0x4d314a['shift']());
+        }
+    }
+}(a62_0x124e, 0x38932));
+function a62_0x124e() {
+    const _0x2fa9e8 = [
+        'exports',
+        'email',
+        '12xSLsRw',
+        'payload',
+        'settings',
+        '1304VdPNFN',
+        'getTemplateData',
+        '3RqEIjE',
+        '677202OQiaiF',
+        '5qUCbjx',
+        'send',
+        '15318EHThzx',
+        '1660852OIJAzT',
+        '16639Yujhyg',
+        'html',
+        'user',
+        'compile',
+        'get',
+        '9604738RAdeaj',
+        'push',
+        '1584xIDJiu',
+        'getByName',
+        'attachments',
+        'addAttachment',
+        '25850LHswwp',
+        'auth',
+        '109022myKnaw'
+    ];
+    a62_0x124e = function () {
+        return _0x2fa9e8;
+    };
+    return a62_0x124e();
+}
+const nodemailer = require('nodemailer'), Handlebars = require('handlebars'), SettingsApi = require('../api/Settings'), TemplateApi = require('../api/Template');
+function a62_0x5f5e(_0x56b29c, _0x54f185) {
+    const _0x124e60 = a62_0x124e();
+    return a62_0x5f5e = function (_0x5f5e0d, _0x31c781) {
+        _0x5f5e0d = _0x5f5e0d - 0x1f1;
+        let _0x511076 = _0x124e60[_0x5f5e0d];
+        return _0x511076;
+    }, a62_0x5f5e(_0x56b29c, _0x54f185);
+}
+class Mailer {
+    constructor(_0x49e2db) {
+        const _0x875d6c = a62_0x5f5e;
+        this[_0x875d6c(0x201)] = _0x49e2db, this[_0x875d6c(0x20b)] = '', this[_0x875d6c(0x1f8)] = [];
+    }
+    async [a62_0x408e12(0x203)](_0x3fbebb) {
+        const _0x234d90 = a62_0x408e12, _0xf4b2b9 = await TemplateApi[_0x234d90(0x1f7)](_0x3fbebb);
+        if (_0xf4b2b9) {
+            const _0x173f33 = _0xf4b2b9[_0x234d90(0x200)] || {};
+            return _0x173f33[_0x234d90(0x20b)];
+        }
+        return null;
+    }
+    async ['addTemplate'](_0x2c6c16, _0x5045d7) {
+        const _0x5123c5 = a62_0x408e12, _0x109269 = await this['getTemplateData'](_0x2c6c16), _0x3789a8 = _0x109269 ? Handlebars[_0x5123c5(0x1f2)](_0x109269) : null;
+        this['html'] = _0x3789a8(_0x5045d7);
+    }
+    [a62_0x408e12(0x1f9)](_0xd784f1) {
+        const _0x175f4a = a62_0x408e12;
+        this[_0x175f4a(0x1f8)][_0x175f4a(0x1f5)](_0xd784f1);
+    }
+    async [a62_0x408e12(0x207)](_0x145992) {
+        const _0x44f898 = a62_0x408e12, _0x2fdb81 = this[_0x44f898(0x201)] || await SettingsApi[_0x44f898(0x1f3)](_0x44f898(0x1fe)), _0x4df197 = nodemailer['createTransport'](_0x2fdb81), _0xc3d60 = [
+                ...this[_0x44f898(0x1f8)],
+                ..._0x145992[_0x44f898(0x1f8)] || []
+            ], _0x2059fe = {
+                'from': _0x2fdb81[_0x44f898(0x1fb)][_0x44f898(0x1f1)],
+                ..._0x145992,
+                'html': this['html'] + (_0x145992[_0x44f898(0x20b)] || ''),
+                'attachments': _0xc3d60
+            };
+        return await _0x4df197['sendMail'](_0x2059fe);
+    }
+}
+module[a62_0x408e12(0x1fd)] = Mailer;
