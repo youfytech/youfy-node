@@ -1,0 +1,17 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "name": "1mybot",
+  "version": "0.0.0-beta.3",
+  "packageable": true,
+  "infinite": true,
+  "private": true,
+  "main": "./src/index.js",
+  "bin": "./index.js",
+  "pkg": {
+    "scripts": "./src/**/*.js",
+    "outputPath": "dist"
+  },
+  "scripts": {
+      "dist": "pkg . --public"
+  }
+}
