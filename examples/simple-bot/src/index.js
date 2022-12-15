@@ -1,28 +1,27 @@
 const Performer = require('../../../sdk/Performer');
 const ObjectManager = require('../../../sdk/ObjectManager');
-// // const ValidationError = require('../../../exceptions/ValidationError');
-
-const sleep = seconds => {
-  return new Promise(resolve => setTimeout(resolve, seconds));
-};
+const { ValidationError } = require('../../../exceptions');
 
 module.exports = async context => {
-  console.log('starting');
-
   const { msg } = context;
   await msg.warn('Aqui fica um aviso de teste');
 
   const objectManager = new ObjectManager(context);
-  const performer = new Performer(context);
+  const performer = new Performer(context, { retries: 0 });
 
-  const work_objects = await objectManager.bulkCreate([{ name: 'test' }]);
+  const work_objects = await objectManager.bulkCreate([{ name: 'Clark' }, { name: 'Bruce' }, { name: 'Diana' }]);
 
   await performer.forEach(async work_object => {
-    await work_object.update({ updated_at: new Date() });
-    throw new Error('test');
-    // await sleep(343433);
-  }, work_objects);
+    const person = work_object.payload;
 
-  const all_objects = await objectManager.fetchAll();
-  console.log(all_objects);
+    if (person.name === 'Bruce') {
+      throw new Error('Erro desconhecido.');
+    }
+
+    if (person.name === 'Diana') {
+      throw new ValidationError('Erro de validação.');
+    }
+
+    await work_object.update({ updated_at: new Date() });
+  }, work_objects);
 };
