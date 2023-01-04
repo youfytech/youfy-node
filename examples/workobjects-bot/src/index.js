@@ -7,14 +7,9 @@ module.exports = async context => {
   const performer = new Performer(context);
 
   const fetchHeroes = async () => {
-    const pending = await objectManager.fetchPending();
-
-    if (pending.length) {
-      return pending;
-    }
-
     const response = await axios.get('https://akabab.github.io/superhero-api/api/all.json');
-    return await objectManager.bulkCreate(response.data);
+    await objectManager.bulkCreate(response.data);
+    return await objectManager.fetchPending();
   };
 
   const heroes = await fetchHeroes();
